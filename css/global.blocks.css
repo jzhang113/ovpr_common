@@ -1,0 +1,45 @@
+.block {
+  margin-bottom: 20px;
+}
+.region-header .block {
+  margin-top: 20px;
+}
+
+.block-content ul,
+.block-content ol {
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+.block-content li {
+  margin: 0;
+  padding: 0;
+}
+
+#block-system-main-menu a {
+  color: #000 !important;
+}
+#block-system-main-menu li {
+  border-bottom: 1px solid #FFC344;
+  padding: 10px;
+  position: relative;
+}
+#block-system-main-menu li:after {
+  content: ' ';
+  background: #FFC344;
+  height: 6px;
+  width: 6px;
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+}
+#block-system-main-menu li li {
+  border-bottom: none;
+  padding: 2px;
+}
+#block-system-main-menu li li:after {
+  display: none;
+}
+#block-system-main-menu .block-inner {
+  margin-left: 0;
+  margin-right: 20px;
+}
