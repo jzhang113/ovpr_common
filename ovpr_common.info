@@ -276,7 +276,7 @@ regions[three_33_bottom] = Footer panel - bottom
   settings[enable_custom_css]          = 0
   settings[enable_context_regions]     = 0
   settings[enable_float_region_blocks] = 0
-  settings[enable_markup_overides]     = 0
+  settings[enable_markup_overides]     = 1
 
   ; University of Iowa Branding Bar Settings
   settings[ovpr_branding_bar] = 1
@@ -319,7 +319,7 @@ regions[three_33_bottom] = Footer panel - bottom
 
 
   ; Font size
-  settings[base_font_size]           = '<none>'
+  settings[base_font_size] = 81.3%
   settings[site_name_font_size]      = '<none>'
   settings[site_slogan_font_size]    = '<none>'
   settings[page_title_font_size]     = '<none>'
@@ -404,6 +404,7 @@ regions[three_33_bottom] = Footer panel - bottom
 
 
   ; Remove or Hide
+  settings[frontpage_remove_title]        = 1
   settings[comments_hide_title]           = 0
   settings[feed_icons]                    = 0
   settings[unset_block_system_main_front] = 0
