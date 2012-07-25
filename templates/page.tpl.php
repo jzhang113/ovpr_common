@@ -88,9 +88,6 @@
  */
 ?>
 <div id="page-wrapper">
-  <?php /*if($ui_header) {
-    print $ui_header;  
-  } */?>
   <div id="page" class="<?php print $classes; ?>">
 
     <?php if($page['leaderboard']): ?>
