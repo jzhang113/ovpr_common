@@ -214,8 +214,7 @@ div.messages,
 }
 
 #research-depts-nav {
-  background: #414042;
-  @include background(linear-gradient(left,  #414042 0%,#40494f 40%,#40494f 100%));
+  background: #3B3B3C;
   padding: 5px;
   clear: both;
   overflow: auto;
@@ -249,7 +248,6 @@ div.messages,
 #depts-links-top {
   margin: 0;
   float: right;
-  background-color: #40474C;
   a {
     height: 100%;
     padding: 0 4px;

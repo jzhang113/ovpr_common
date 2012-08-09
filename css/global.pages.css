@@ -95,13 +95,7 @@ div.messages,
 }
 
 #research-depts-nav {
-  background: #414042;
-  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #414042), color-stop(40%, #40494f), color-stop(100%, #40494f));
-  background: -webkit-linear-gradient(left, #414042 0%, #40494f 40%, #40494f 100%);
-  background: -moz-linear-gradient(left, #414042 0%, #40494f 40%, #40494f 100%);
-  background: -o-linear-gradient(left, #414042 0%, #40494f 40%, #40494f 100%);
-  background: -ms-linear-gradient(left, #414042 0%, #40494f 40%, #40494f 100%);
-  background: linear-gradient(left, #414042 0%, #40494f 40%, #40494f 100%);
+  background: #3B3B3C;
   padding: 5px;
   clear: both;
   overflow: auto;
@@ -136,7 +130,6 @@ div.messages,
 #depts-links-top {
   margin: 0;
   float: right;
-  background-color: #40474C;
 }
 #depts-links-top a {
   height: 100%;
