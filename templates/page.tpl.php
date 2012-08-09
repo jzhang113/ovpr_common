@@ -148,8 +148,12 @@
     <?php endif; ?>
     <!-- OVPR branding bar -->
       <?php if(theme_get_setting('ovpr_branding_bar') === 1): ?>
-        <div id="research-depts-nav" class="container">
-          <?php print $ovpr_branding; ?>
+        <div id="research-depts-wrapper">
+          <div class="container clearfix">
+            <div id="research-depts-nav">
+              <?php print $ovpr_branding; ?>
+            </div>
+          </div>
         </div>    
     <?php endif; ?>
     <?php //if ($breadcrumb): ?>
