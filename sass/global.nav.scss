@@ -273,7 +273,7 @@ ul.menu {
 
 #breadcrumb-wrapper .container {
   background: #FFC822; /* Old browsers */
-  //@include background(linear-gradient(top,  rgba(255,246,217,1) 1%,rgba(255,227,155,1) 47%,rgba(255,198,26,1) 100%));       
+  @include background(linear-gradient(top, #FFF6D9, #FFC61A));       
   border: 1px solid #FFC61A;
   height: 3em;
 }

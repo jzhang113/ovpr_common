@@ -166,6 +166,12 @@ ul.menu li {
 #breadcrumb-wrapper .container {
   background: #FFC822;
   /* Old browsers */
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff6d9), color-stop(100%, #ffc61a));
+  background: -webkit-linear-gradient(top, #fff6d9, #ffc61a);
+  background: -moz-linear-gradient(top, #fff6d9, #ffc61a);
+  background: -o-linear-gradient(top, #fff6d9, #ffc61a);
+  background: -ms-linear-gradient(top, #fff6d9, #ffc61a);
+  background: linear-gradient(top, #fff6d9, #ffc61a);
   border: 1px solid #FFC61A;
   height: 3em;
 }
