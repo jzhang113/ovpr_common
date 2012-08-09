@@ -395,7 +395,7 @@ div.messages,
   color: #fff;
   padding: 25px 0 10px;
   div.block-content.content {
-    margin-left: 100px;
+    margin-left: 120px;
     a {
       color: #fff;
       &:hover {
@@ -438,8 +438,7 @@ div.messages,
       color: #fff;
       float: left;
       font-weight: bold;
-      //font-family: steelfish, 'SteelfishRegular', arial;
-      font-size: 1.8em;
+      font-size: 1.6em;
       text-transform: uppercase;
   }
 }

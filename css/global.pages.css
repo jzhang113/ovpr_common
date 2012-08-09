@@ -179,7 +179,7 @@ div.messages,
   padding: 25px 0 10px;
 }
 #footer-panels-wrapper div.block-content.content {
-  margin-left: 100px;
+  margin-left: 120px;
 }
 #footer-panels-wrapper div.block-content.content a {
   color: #fff;
@@ -222,7 +222,7 @@ div.messages,
   color: #fff;
   float: left;
   font-weight: bold;
-  font-size: 1.8em;
+  font-size: 1.6em;
   text-transform: uppercase;
 }
 
