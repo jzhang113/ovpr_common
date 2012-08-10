@@ -24,6 +24,17 @@ function ovpr_common_form_system_theme_settings_alter(&$form, &$form_state)  {
     '#default_value' => theme_get_setting('ovpr_branding_bar'),
     '#description' => t('The OVPR Branding Bar is the gray bar above the yellow breadcrumbs bar.'),
   );
+  $form['at-settings']['ovpr']['ovpr_depts_name'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Department Name'),
+    '#default_value' => variable_get('ovpr_depts_name', variable_get('site_name')),
+    '#description' => t('Enter the name of the department. This is used on the left side of the OVPR branding bar.'),
+    '#states' => array(
+      'visible' => array(   // action to take.
+        ':input[name="ovpr_branding_bar"]' => array('checked' => TRUE),
+      ),
+    ),
+  );
   $form['at-settings']['ovpr']['ovpr_depts_links'] = array(
     '#type' => 'checkbox',
     '#title' => t('Enable OVPR Department Links'),

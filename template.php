@@ -54,10 +54,10 @@ function ovpr_common_process_html(&$vars) {
  * Override or insert variables for the page templates.
  */
 function ovpr_common_preprocess_page(&$vars) {
-    $sitename = variable_get('site_name');
+    $departmentname = theme_get_setting('ovpr_depts_name');
     $sitepath = $GLOBALS['base_url'];
     $vars['ovpr_branding'] = '<a id="research-link" href="http://research.uiowa.edu">University of Iowa</a>' 
-    . l($sitename, $sitepath, array('attributes' => array('id' => array('current-department-link'))));
+    . l($departmentname, $sitepath, array('attributes' => array('id' => array('current-department-link'))));
     if(theme_get_setting('ovpr_depts_links') === 1) {
     $vars['ovpr_branding'] .=
   	'<ul id="depts-links-top">
