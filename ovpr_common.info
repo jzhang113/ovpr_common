@@ -15,9 +15,7 @@
   ; Globals CSS, loads all global.[type].css files in /css/
   stylesheets[screen][] = css/globals.css
 
-
-  ; Print
-  ; Uncomment to load basic print styles.
+  ; Print - uncomment to load basic print styles.
   ; stylesheets[print][] = css/print.css
 
 
@@ -25,23 +23,28 @@
   ;
   ; AT can load stylesheets in conditional comments from the info file.
   ;
-  ; Syntax: ie_stylesheets[media][condition] = path/to/file (path must be relative to your theme root)
+  ; Syntax: ie_stylesheets[media][condition][] = path/to/file (path must be
+  ; relative to your theme root)
   ;
-  ; For example if you want to load a stylesheet just for IE7 use the following (note: you need to create "ie7.css" in the /css/ directory):
-  ; ie_stylesheets[screen][IE 7] = css/ie7.css
+  ; For example if you want to load a stylesheet just for IE7 use the
+  ; following (note: you need to create "ie7.css" in the /css/ directory):
+  ; ie_stylesheets[screen][IE 7][] = css/ie7.css
   ;
-  ; By default the sub-theme has one IE stylesheet which loads for "less than IE9" but "not IEMobile 7".
+  ; By default the sub-theme has one IE stylesheet which loads for
+  ; "less than IE9" but "not IEMobile 7".
   ; Uncomment the following to use the included IE styleseet:
 
-  ; ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)] = css/lt-ie9.css
+  ; ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = css/lt-ie9.css
 
 
   ; Unset Module CSS or other Stylesheets
   ;
-  ; In your theme settings you can unset many stylesheets using the Unset CSS Extension. If for some
-  ; reason the file you want to unset is not showing, you can explicitly declare it here. Once you have
-  ; finished adding your declarations you must clear the sites cache, then go to your theme settings and
-  ; check the checkbox for the file, then save the theme settings and the file will be unset thereafter.
+  ; In your theme settings you can unset many stylesheets using the Unset CSS
+  ; Extension. If for some reason the file you want to unset is not showing,
+  ; you can explicitly declare it here. Once you have finished adding your
+  ; declarations you must clear the sites cache, then go to your theme settings
+  ; and check the checkbox for the file, then save the theme settings and the
+  ; file will be unset thereafter.
   ;
   ; Follow the syntax:
   ;
@@ -58,14 +61,17 @@
 
   ; Internet Explorer Scripts
   ;
-  ; AT can load scripts in conditional comments from the info file. If you are planning to use a polyfill be sure to check
-  ; the "Settings" tab in theme settings - this includes checkboxes to enable the HTML5 Shiv (on by default), Respond.js and
-  ; boxsizing.htc. See the js folder in at_core to view these scripts.
+  ; AT can load scripts in conditional comments from the info file. If you are
+  ; planning to use a polyfill be sure to check the "Settings" tab in theme
+  ; settings for existing Polyfills.
   ;
-  ; Syntax: ie_scripts[condition] = path/to/file (path must be relative to your theme root)
+  ; Syntax: ie_scripts[condition][] = path/to/file (path must be relative to your
+  ; theme root)
   ;
-  ; For example if you want to load a script just for IE 8 and below use the following as a guide:
-  ; ie_scripts[lte IE 8] = js/my-script.js
+  ; For example if you want to load a script just for IE 8 and below use the
+  ; following as a guide:
+
+  ; ie_scripts[lte IE 8][] = js/my-script.js
 
 
 ;----------// Regions
@@ -88,8 +94,8 @@
 
 ;----------// Gpanel Regions
 
-  ; If you are using Gpanels copy and paste the region definitions here. You will find them
-  ; in each layout PHP file in adaptivetheme/layouts/gpanels
+  ; If you are using Gpanels copy and paste the region definitions here. You
+  ; will find them in each layout PHP file in adaptivetheme/layouts/gpanels
 
 ; 3 col 3x33
 regions[three_33_top]    = Footer panel - top
@@ -101,9 +107,10 @@ regions[three_33_bottom] = Footer panel - bottom
 
 ;----------// Custom Page Layout Plugins
 
-  ; Don't uncomment this unless you are actually developing a page layout plugin,
-  ; it will add a layout to all device groups that does little else except provide
-  ; and example page_layout plugin.
+  ; Don't uncomment this unless you are actually developing a page layout
+  ; plugin, it will add a layout to all device groups that does little else
+  ; except provide and example page_layout plugin.
+
   ; plugins[page_layout][layouts] = custom_layouts
 
 
@@ -251,9 +258,6 @@ regions[three_33_bottom] = Footer panel - bottom
   settings[load_html5js]       = 1
   settings[load_respondjs]     = 1
   settings[load_ltie8css]      = 0
-  settings[load_pie]           = 0
-  settings[which_pie]          = 'PIE.htc'
-  settings[disble_pie_for_ie9] = 0
   settings[load_selectivizr]   = 0
   settings[load_scalefixjs]    = 1
 
@@ -332,12 +336,12 @@ regions[three_33_bottom] = Footer panel - bottom
 
 
   ; Font size heading levels
-  settings[h1_font_size] = 3em
-  settings[h2_font_size] = 1.6em
-  settings[h3_font_size] = 1.4em
-  settings[h4_font_size] = 1.2em
-  settings[h5_font_size] = 1em
-  settings[h6_font_size] = 1em
+  settings[h1_font_size] = '2em'
+  settings[h2_font_size] = '1.6em'
+  settings[h3_font_size] = '1.4em'
+  settings[h4_font_size] = '1.2em'
+  settings[h5_font_size] = '1em'
+  settings[h6_font_size] = '1em'
 
 
   ; Page title
@@ -368,11 +372,12 @@ regions[three_33_bottom] = Footer panel - bottom
   settings[block_title_shadow]    = 'bts-n'
 
 
-  ; Image alignment
+  ; Images
   settings[image_alignment]        = 'ia-n'
   settings[image_alignment_teaser] = 'iat-n'
   settings[image_caption_full]     = 0
   settings[image_caption_teaser]   = 0
+  settings[image_teaser]           = 0
 
 
   ; Breadcrumb
@@ -383,8 +388,10 @@ regions[three_33_bottom] = Footer panel - bottom
 
 
   ; Login block options
-  settings[horizontal_login_block]        = 0
   settings[horizontal_login_block_enable] = 'on'
+  settings[horizontal_login_block]    = 0
+  settings[login_block_remove_links]  = 0
+  settings[login_block_remove_openid] = 0
 
 
   ; Design
@@ -404,7 +411,6 @@ regions[three_33_bottom] = Footer panel - bottom
 
 
   ; Remove or Hide
-  settings[frontpage_remove_title]        = 1
   settings[comments_hide_title]           = 0
   settings[feed_icons]                    = 0
   settings[unset_block_system_main_front] = 0
