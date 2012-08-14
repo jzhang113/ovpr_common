@@ -94,67 +94,6 @@ div.messages,
   margin-right: -10px;
 }
 
-#research-depts-nav {
-  background: #3B3B3C;
-  padding: 5px;
-  clear: both;
-  overflow: auto;
-  width: 100%;
-}
-#research-depts-nav a {
-  color: #FFC344;
-  font-size: 0.8em;
-  font-weight: bold;
-  vertical-align: middle;
-}
-#research-depts-nav #current-department-link {
-  float: left;
-  background-color: #FFC344;
-  padding: 0 4px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  color: #000;
-  margin-top: 2px;
-}
-
-#research-link {
-  float: left;
-  margin-right: 10px;
-  text-transform: uppercase;
-  margin-top: 2px;
-}
-
-#depts-links-top {
-  margin: 0;
-  float: right;
-}
-#depts-links-top a {
-  height: 100%;
-  padding: 0 4px;
-}
-#depts-links-top a:hover {
-  color: #000;
-  background-color: #FFC344;
-  height: 100%;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-}
-#depts-links-top li {
-  display: inline;
-  margin: 0 5px;
-  border-left: 1px solid #FFC344;
-  padding-left: 10px;
-}
-#depts-links-top li.first {
-  border-left: none;
-}
-
 .region-sidebar-first {
   border-top: 6px solid #FFC344;
   border-right: 1px solid #FFC344;

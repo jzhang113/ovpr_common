@@ -21,18 +21,6 @@
   margin-top: 30px;
 }
 
-#depts-links-top {
-  clear:both;
-  float: none;
-  width: 100%;
-  li {
-    width: 21%;
-    display: block;
-    margin: .5% 2%;
-    text-align: center;
-    float: left;
-    &.first {
-      border-left: 1px solid #FFC344;
-    }
-  }
+#research-depts-wrapper {
+  display: none;
 }

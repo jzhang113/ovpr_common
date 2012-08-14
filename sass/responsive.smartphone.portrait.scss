@@ -19,24 +19,8 @@ html {
   font-size: 112.5%; /* Increase the default font size on small devices */
 }
 
-#research-depts-nav #current-department-link {
-  margin-bottom: 10px;
-}
-
-#depts-links-top {
-  clear:both;
-  float: none;
-  width: 100%;
-  li {
-    width: 29.5%;
-    display: block;
-    margin: .5% 2%;
-    text-align: center;
-    float: left;
-    &.first {
-      border-left: 1px solid #FFC344;
-    }
-  }
+#research-depts-wrapper {
+  display: none;
 }
 
 .front #breadcrumb-wrapper .container {

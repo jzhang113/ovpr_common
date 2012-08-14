@@ -19,22 +19,9 @@ html {
   font-size: 112.5%; /* Increase the body font size on small devices */
 }
 
-#depts-links-top {
-  clear:both;
-  float: none;
-  width: 100%;
-  li {
-    width: 21%;
-    display: block;
-    margin: .5% 2%;
-    text-align: center;
-    float: left;
-    &.first {
-      border-left: 1px solid #FFC344;
-    }
-  }
+#research-depts-wrapper {
+  display: none;
 }
-
 .front #breadcrumb-wrapper .container {
   display: none;
 }
