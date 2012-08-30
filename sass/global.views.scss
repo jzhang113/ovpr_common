@@ -31,3 +31,121 @@
 
 .views-slideshow-controls-top {}
 .views-slideshow-controls-bottom {}
+
+//
+// Basic Styles for Calendar
+// Additonal assets include: slider-controls.png, and date-views-pager.tpl.php
+//
+
+// CUSTOM MIXINS
+@mixin highlightBtn {
+	@include background-image(linear-gradient(#FAFAFA, #DCDCDC));
+	padding: 10px;
+	outline: 1px solid #ddd;
+	border-top: 2px solid #fff;
+	border-bottom: 1px solid #aaa;
+	
+	text-align: left;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: .75em;
+	font-weight: bold;
+	color: #555;
+	@include single-text-shadow(#fff, 0px, 1px, 0);
+}
+
+@mixin imgReplace {
+	text-indent: -9999px;
+	font-size: 1em;
+	line-height: 0;
+}
+
+/************************* CALENDAR STYLES *************************/
+
+.views-calendar, .view-events-calendar, .view-ovpr-calendar {
+
+// COLOR VARIABLES
+	$hover: #1F69A9;
+	$today: #FFF3CD;
+	$todayBorder: $hover;
+	$containerColor: #F7F7F7;
+	$borderColor: #CCCCCC;
+	
+// OVERRIDES AND CLEARS
+	//*  { @include box-sizing(border-box); } // This ensures that "views-calendar" is using the box-border model
+	
+	.date-nav-wrapper { margin-top: 0; }
+	
+	.date-nav-wrapper .date-nav { margin-bottom: 0; padding:0; margin-bottom: 3px; }
+	
+	.pager .date-prev, 
+	.pager .date-next { background: transparent; border: none; top: 5px; }
+	
+	.pager .date-prev { right: auto; left: 0; }
+	
+	.item-list ul.pager .date-prev a, 
+	.item-list ul.pager .date-next a { background-color: transparent; border: none; outline: none; }
+	
+	.calendar-calendar div.day { width: auto; }
+	
+	.calendar-calendar tr td.today, 
+	.calendar-calendar tr.odd td.today, 
+	.calendar-calendar tr.even td.today { background-color: $today; }
+	
+	.calendar-calendar .month-view .full tr td.single-day.today,
+	.calendar-calendar .month-view .full td.date-box.today { border-color: $todayBorder; }
+	
+// CONTAINER STYLES
+	padding: 4px;
+	background: $containerColor;
+	border: 1px solid $borderColor;
+	
+	tbody { border: 1px solid $borderColor; }
+	
+	tr.odd, 
+	tr.info, 
+	tr:nth-child(2n+1) {
+		background-color: lighten(#000, 94%);
+	}
+	
+	.calendar-calendar table.mini td.empty { border-color: $borderColor; }
+	
+	.calendar-calendar th.days { border: none; }
+	
+	.calendar-calendar td {
+		border: 1px solid $borderColor;
+		padding: 7px 3px 3px;
+		text-align: center;
+	}
+	
+	.date-heading {
+		@include highlightBtn;
+		padding: 2px;
+		margin-top: 0 !important;
+		margin-bottom: 4px;
+	}
+	
+	.item-list ul.pager { 
+		margin: 0;
+		padding: 0;
+		
+		.date-prev a, 
+		.date-next a {
+			@include imgReplace;
+			background-image: url('images/slider-controls.png'); 
+			background-repeat: no-repeat;
+			width: 20px;
+			height: 20px;
+			display: block;
+			font-size: 0;
+			
+			&:hover, &:focus, &:active { 
+				background-color: lighten($hover, 30%);
+				@include border-radius(3px);
+				@include box-shadow(rgba(0,0,0,.2), 0px, 0px, 5px, inset);
+			}
+		}
+		
+		.date-prev a { background-position: 0 0; }
+		.date-next a { background-position: 0 -20px; }	
+	}
+}
