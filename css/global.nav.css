@@ -107,17 +107,22 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
   padding: 0 10px;
 }
 
+.block-content ul.menu {
+  padding: 0;
+  margin: 4px 0;
+}
+.block-content ul.menu ul {
+  margin-left: 15px;
+}
+
 ul.menu {
   list-style-position: inside;
-  margin: 4px 0;
-  padding: 0;
 }
 .region-header ul.menu {
   text-transform: uppercase;
 }
 ul.menu ul {
   margin-left: 15px;
-  list-style-position: outside;
   padding-left: 25px;
 }
 ul.menu ul ul {
