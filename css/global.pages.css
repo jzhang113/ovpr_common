@@ -202,6 +202,7 @@ div.messages ul {
 
 h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #000;
+  text-decoration: underline;
 }
 
 .tooltip {
