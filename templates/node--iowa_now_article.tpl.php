@@ -109,7 +109,6 @@ hide($content['field_iowanow_article_type']);
 hide($content['field_iowanow_external_url']);
 hide($content['field_iowanow_publication_source']);
 ?>
-<?php print dsm($content); ?>
 
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php print render($title_prefix); ?>
