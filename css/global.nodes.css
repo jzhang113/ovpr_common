@@ -5,3 +5,13 @@
 .node {
   margin-bottom: 20px;
 }
+
+.node-iowa-now-article .publication_source {
+  color: #3B3B3C;
+  font-style: italic;
+}
+
+.field-name-field-iowanow-thumbnail-image {
+  float: left;
+  margin: 0.5em 15px 1.5em 0;
+}
