@@ -128,7 +128,7 @@ hide($content['field_iowanow_publication_source']);
       <?php if ($title): ?>
         <h2<?php print $title_attributes; ?>>
           <?php if (!empty($content['field_iowanow_publication_source']['0']['#markup'])): ?>
-            <span class="publication_source"><?php print render($content['field_iowanow_publication_source']['0']['#markup']); ?>:</span>
+            <span class="publication_source"><?php print render($content['field_iowanow_publication_source']['0']['#markup']); ?>: </span>
           <?php endif; ?>
           <a href="<?php print $node_url; ?>" rel="bookmark">
             <?php print $title; ?>
