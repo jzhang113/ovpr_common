@@ -103,7 +103,6 @@
  */
 hide($content['comments']);
 hide($content['links']);
-hide($content['field_iowanow_byline']);
 hide($content['field_iowanow_url']);
 hide($content['field_iowanow_article_type']);
 hide($content['field_iowanow_external_url']);
@@ -142,9 +141,6 @@ hide($content['field_iowanow_publication_source']);
     <footer<?php print $footer_attributes; ?>>
       <?php print $user_picture; ?>
       <p class="author-datetime">
-        <?php if (!empty($content['field_iowanow_byline']['0']['#markup'])): ?>
-          By: <?php print render($content['field_iowanow_byline']['0']['#markup']) ?>, Iowa Now | 
-        <?php endif; ?>
         <?php print $publication_date; ?>
       </p>
     </footer>
