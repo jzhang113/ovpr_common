@@ -56,7 +56,7 @@
 
 ;----------// Scripts
   ; Theme js
-  scripts[] = js/jquery.tools.min.js
+  scripts[] = js/jquery.tools.tooltip.min.js
   scripts[] = js/script.js
 
   ; Internet Explorer Scripts
