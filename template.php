@@ -56,7 +56,7 @@ function ovpr_common_process_html(&$vars) {
 function ovpr_common_preprocess_page(&$vars) {
     $departmentname = theme_get_setting('ovpr_depts_name');
     $sitepath = $GLOBALS['base_url'];
-    $vars['ovpr_branding'] = '<a id="research-link" href="http://research.uiowa.edu">University of Iowa</a>' 
+    $vars['ovpr_branding'] = '<a id="research-link" href="http://www.uiowa.edu/">University of Iowa</a>' 
     . l($departmentname, $sitepath, array('attributes' => array('id' => array('current-department-link'))));
     if(theme_get_setting('ovpr_depts_links') === 1) {
     $vars['ovpr_branding'] .=
