@@ -125,14 +125,15 @@ hide($content['field_iowanow_publication_source']);
     <?php endif; ?>
     <header<?php print $header_attributes; ?>>
       <?php if ($title): ?>
-        <h2<?php print $title_attributes; ?>>
+        <!--  Switch to H3 for panel panes, since panel pane title is H2 -->
+        <h<?php print ($view_mode === 'panel_pane' ? '3' : '2'); ?><?php print $title_attributes; ?>>
           <?php if (!empty($content['field_iowanow_publication_source']['0']['#markup'])): ?>
             <span class="publication_source"><?php print render($content['field_iowanow_publication_source']['0']['#markup']); ?>: </span>
           <?php endif; ?>
           <a href="<?php print $node_url; ?>" rel="bookmark">
             <?php print $title; ?>
           </a>
-        </h2>
+        </h<?php print ($view_mode === 'panel_pane' ? '3' : '2'); ?>>        
       <?php endif; ?>
     </header>
   <?php endif; ?>
