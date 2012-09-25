@@ -128,7 +128,7 @@
                 <hgroup<?php print $hgroup_attributes; ?>>
 
                   <?php if ($site_name): ?>
-                    <h1<?php print $site_name_attributes; ?>><?php print $site_name; ?></h1>
+                    <h1<?php print $site_name_attributes; ?>><?php print str_replace("|", "<br />", $site_name); ?></h1>
                   <?php endif; ?>
 
                   <?php if ($site_slogan): ?>
