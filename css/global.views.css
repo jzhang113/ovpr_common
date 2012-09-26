@@ -121,3 +121,7 @@
 .views-calendar .item-list ul.pager .date-next a, .view-events-calendar .item-list ul.pager .date-next a, .view-ovpr-calendar .item-list ul.pager .date-next a {
   background-position: 0 -20px;
 }
+
+.flexslider {
+  margin-bottom: 0;
+}

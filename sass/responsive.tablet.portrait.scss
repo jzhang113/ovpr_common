@@ -24,3 +24,13 @@
 #research-depts-wrapper {
   display: none;
 }
+
+// Featured content views
+.flexslider .slides img {
+    width: 320px;
+    float: left;
+}
+
+.flexslider ul.slides li img {
+    padding-right: 10px;
+}

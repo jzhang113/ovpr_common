@@ -77,3 +77,12 @@
 #depts-links-top li.first {
   border-left: none;
 }
+
+.flexslider .slides img {
+  width: 320px;
+  float: left;
+}
+
+.flexslider ul.slides li img {
+  padding-right: 10px;
+}
