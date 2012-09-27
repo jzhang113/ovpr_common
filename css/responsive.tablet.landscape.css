@@ -78,6 +78,10 @@
   border-left: none;
 }
 
+#main-content {
+  margin-left: 20px;
+}
+
 .flexslider .slides img {
   width: 320px;
   float: left;
