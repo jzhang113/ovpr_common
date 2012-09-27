@@ -107,6 +107,7 @@ hide($content['field_iowanow_url']);
 hide($content['field_iowanow_article_type']);
 hide($content['field_iowanow_external_url']);
 hide($content['field_iowanow_publication_source']);
+hide($content['field_iowanow_thumbnail_image']);
 ?>
 
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
@@ -123,8 +124,12 @@ hide($content['field_iowanow_publication_source']);
       <?php $node_url = $external_url; ?>
       <?php $content['links']['node']['#links']['node-readmore']['href'] = $external_url ?>
     <?php endif; ?>
+    <?php if ($view_mode === 'panel_pane'): ?>
+      <?php print render($content['field_iowanow_thumbnail_image']); ?>
+    <?php endif; ?>
     <header<?php print $header_attributes; ?>>
       <?php if ($title): ?>
+        
         <!--  Switch to H3 for panel panes, since panel pane title is H2 -->
         <h<?php print ($view_mode === 'panel_pane' ? '3' : '2'); ?><?php print $title_attributes; ?>>
           <?php if (!empty($content['field_iowanow_publication_source']['0']['#markup'])): ?>
@@ -141,9 +146,9 @@ hide($content['field_iowanow_publication_source']);
   <?php if(!empty($user_picture) || $display_submitted): ?>
     <footer<?php print $footer_attributes; ?>>
       <?php print $user_picture; ?>
-      <p class="author-datetime">
+      <span class="author-datetime sub">
         <?php print $publication_date; ?>
-      </p>
+      </span>
     </footer>
   <?php endif; ?>
 
