@@ -243,3 +243,39 @@ header[role=banner],
 .element-hidden {
   display: none;
 }
+
+.distinct-header h2.pane-title, .distinct-header h2.block-title {
+  border-bottom: 1px solid #FFC344;
+  position: relative;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.distinct-header h2.pane-title a, .distinct-header h2.block-title a {
+  text-decoration: none;
+}
+.distinct-header h2.pane-title:after, .distinct-header h2.block-title:after {
+  background: none repeat scroll 0 0 #FFC344;
+  bottom: -3px;
+  content: " ";
+  height: 6px;
+  position: absolute;
+  right: 0;
+  width: 6px;
+}
+
+.minimal h3 {
+  font-size: 1.2em;
+  font-weight: 100;
+}
+.minimal h3 a {
+  color: #086782;
+  text-decoration: none;
+}
+.minimal h3 a:hover, .minimal h3 a:focus {
+  text-decoration: underline;
+}
+
+.sub {
+  color: #3B3B3C;
+  font-style: italic;
+}

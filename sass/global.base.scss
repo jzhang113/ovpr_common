@@ -387,3 +387,45 @@ header[role=banner],
 .element-hidden {
   display: none;
 }
+
+// Distinct styling for lists of content, homepages, etc.
+
+.distinct-header h2 {
+    &.pane-title, &.block-title {
+      border-bottom: 1px solid #FFC344;
+      position: relative;
+      margin-bottom: 15px; 
+      font-weight: 400;
+      & a {
+        text-decoration: none;
+      }
+      &:after {
+        background: none repeat scroll 0 0 #FFC344;
+        bottom: -3px;
+        content: " ";
+        height: 6px;
+        position: absolute;
+        right: 0;
+        width: 6px;
+      }
+  }
+}
+
+.minimal {
+  h3 {
+    font-size: 1.2em;
+    font-weight: 100;
+    a {
+      color: #086782;
+      text-decoration: none;
+      &:hover, &:focus {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.sub {
+  color: #3B3B3C;
+  font-style: italic;
+}
