@@ -154,3 +154,17 @@
 .flexslider {
   margin-bottom: 0;
 }
+
+.view-featured-research-panes {
+  position: relative;
+}
+
+//Views read-more class
+.view p.top-read-more {
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    display: block;
+    width: 4em;
+}
