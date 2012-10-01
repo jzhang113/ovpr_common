@@ -214,3 +214,41 @@ h2 a, h3 a, h4 a, h5 a, h6 a {
   padding: 25px;
   color: #fff;
 }
+
+.flexslider {
+  background: #EBEBEB;
+  /* Old browsers */
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ebebeb), color-stop(100%, #d1d1d1));
+  background: -webkit-linear-gradient(top, #ebebeb, #d1d1d1);
+  background: -moz-linear-gradient(top, #ebebeb, #d1d1d1);
+  background: -o-linear-gradient(top, #ebebeb, #d1d1d1);
+  background: -ms-linear-gradient(top, #ebebeb, #d1d1d1);
+  background: linear-gradient(top, #ebebeb, #d1d1d1);
+}
+.flexslider h2 {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 100;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+.flexslider h2 a {
+  color: #086782;
+  text-decoration: none;
+}
+.flexslider h2 a:hover {
+  color: #3B3B3C;
+}
+.flexslider .views-field-body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div.flex-pauseplay {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+div.flex-pauseplay .flex-play {
+  cursor: pointer;
+}

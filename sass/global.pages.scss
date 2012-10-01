@@ -490,3 +490,35 @@ h2, h3, h4, h5, h6 {
 	padding:25px;
 	color:#fff;	
 }
+
+.flexslider {
+  background: #EBEBEB; /* Old browsers */
+  @include background(linear-gradient(top, #EBEBEB, #D1D1D1));
+  h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 100;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+      a {
+        color: #086782;
+        text-decoration: none;
+        &:hover {
+          color: #3B3B3C;
+        }
+      }
+  }
+  .views-field-body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+div.flex-pauseplay {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  .flex-play {
+    cursor: pointer;
+  }
+}

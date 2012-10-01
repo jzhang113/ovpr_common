@@ -80,9 +80,11 @@
 }
 
 // Featured content views
-.flexslider .slides img {
-    width: 320px;
+.flexslider {
+  .slides img {
+    width: 410px;
     float: left;
+  }
 }
 
 .flexslider ul.slides li img {
