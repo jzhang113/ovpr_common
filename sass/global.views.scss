@@ -202,7 +202,7 @@
 		.views-field-title {
 			display:block;
 		}
-		
+
 		.views-field-field-event-date {
 			background: none repeat scroll 0 0 #FFF6DC;
     		border-radius: 6px 6px 6px 6px;
@@ -211,22 +211,25 @@
     		width: 50px;
     		border: 1px solid black;
 
-			span#top-date-field {    
-				display: block;
-		    	height: 20px;
-		    	overflow: hidden;
-		    	width: 34px;
-	    	}
-
-			span#bottom-date-field {
-				display: block;
-			    font-size: 195%;
-			    height: 41px;
-			    overflow: hidden;
-			    text-indent: -53px;
-			    width: 36px;
-			    margin-top: -27px;
-	    	}
+			
 		}
+
+		span#top-date-field {    
+			display: block;
+	    	height: 20px;
+	    	overflow: hidden;
+	    	width: 34px;
+    	}
+
+		span#bottom-date-field {
+			display: block;
+		    font-size: 195%;
+		    height: 41px;
+		    overflow: hidden;
+		    text-indent: -53px;
+		    width: 36px;
+		    margin-top: -27px;
+    	}
+
 	}
 }
