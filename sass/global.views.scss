@@ -192,16 +192,15 @@
       }
 	}
 
-	.views-field-field-event-date {
-
-		table {
+	table {
 
 			td {
 				border-right: 1px solid #CCCCCC;
 				border-bottom: 1px solid #CCCCCC;	
 			}
-		}
+		
 
+		.views-field-field-event-date {
 			span#top-date-field {    
 				display: block;
 		    	height: 20px;
@@ -217,5 +216,6 @@
 			    text-indent: -53px;
 			    width: 36px;
 	    	}
+		}
 	}
 }
