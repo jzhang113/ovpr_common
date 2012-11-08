@@ -168,3 +168,29 @@
     display: block;
     width: 4em;
 }
+
+/************************* FRONT PAGE EVENT STYLES *************************/
+
+#block-views-events-view-block {
+	
+	h2 {
+	    &.pane-title, &.block-title {
+	      border-bottom: 1px solid #FFC344;
+	      position: relative;
+	      margin-bottom: 15px; 
+	      font-weight: 400;
+	      & a {
+	        text-decoration: none;
+	      }
+	      &:after {
+	        background: none repeat scroll 0 0 #FFC344;
+	        bottom: -3px;
+	        content: " ";
+	        height: 6px;
+	        position: absolute;
+	        right: 0;
+	        width: 6px;
+	      }
+	  	}
+	}
+}
