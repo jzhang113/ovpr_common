@@ -1,264 +1,84 @@
-/**
- * @file
- * Views
- */
-/* Views Slideshow */
-/************************* CALENDAR STYLES *************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000364}}
-.views-calendar, .view-events-calendar, .view-ovpr-calendar {
-  padding: 4px;
-  background: #f7f7f7;
-  border: 1px solid #cccccc;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000376}}
-.views-calendar .date-nav-wrapper, .view-events-calendar .date-nav-wrapper, .view-ovpr-calendar .date-nav-wrapper {
-  margin-top: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000378}}
-.views-calendar .date-nav-wrapper .date-nav, .view-events-calendar .date-nav-wrapper .date-nav, .view-ovpr-calendar .date-nav-wrapper .date-nav {
-  margin-bottom: 0;
-  padding: 0;
-  margin-bottom: 3px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000381}}
-.views-calendar .pager .date-prev,
-.views-calendar .pager .date-next, .view-events-calendar .pager .date-prev,
-.view-events-calendar .pager .date-next, .view-ovpr-calendar .pager .date-prev,
-.view-ovpr-calendar .pager .date-next {
-  background: transparent;
-  border: none;
-  top: 5px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000383}}
-.views-calendar .pager .date-prev, .view-events-calendar .pager .date-prev, .view-ovpr-calendar .pager .date-prev {
-  right: auto;
-  left: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000386}}
-.views-calendar .item-list ul.pager .date-prev a,
-.views-calendar .item-list ul.pager .date-next a, .view-events-calendar .item-list ul.pager .date-prev a,
-.view-events-calendar .item-list ul.pager .date-next a, .view-ovpr-calendar .item-list ul.pager .date-prev a,
-.view-ovpr-calendar .item-list ul.pager .date-next a {
-  background-color: transparent;
-  border: none;
-  outline: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000388}}
-.views-calendar .calendar-calendar div.day, .view-events-calendar .calendar-calendar div.day, .view-ovpr-calendar .calendar-calendar div.day {
-  width: auto;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000392}}
-.views-calendar .calendar-calendar tr td.today,
-.views-calendar .calendar-calendar tr.odd td.today,
-.views-calendar .calendar-calendar tr.even td.today, .view-events-calendar .calendar-calendar tr td.today,
-.view-events-calendar .calendar-calendar tr.odd td.today,
-.view-events-calendar .calendar-calendar tr.even td.today, .view-ovpr-calendar .calendar-calendar tr td.today,
-.view-ovpr-calendar .calendar-calendar tr.odd td.today,
-.view-ovpr-calendar .calendar-calendar tr.even td.today {
-  background-color: #fff3cd;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000395}}
-.views-calendar .calendar-calendar .month-view .full tr td.single-day.today,
-.views-calendar .calendar-calendar .month-view .full td.date-box.today, .view-events-calendar .calendar-calendar .month-view .full tr td.single-day.today,
-.view-events-calendar .calendar-calendar .month-view .full td.date-box.today, .view-ovpr-calendar .calendar-calendar .month-view .full tr td.single-day.today,
-.view-ovpr-calendar .calendar-calendar .month-view .full td.date-box.today {
-  border-color: #1f69a9;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003102}}
-.views-calendar tbody, .view-events-calendar tbody, .view-ovpr-calendar tbody {
-  border: 1px solid #cccccc;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003106}}
-.views-calendar tr.odd,
-.views-calendar tr.info,
-.views-calendar tr:nth-child(2n+1), .view-events-calendar tr.odd,
-.view-events-calendar tr.info,
-.view-events-calendar tr:nth-child(2n+1), .view-ovpr-calendar tr.odd,
-.view-ovpr-calendar tr.info,
-.view-ovpr-calendar tr:nth-child(2n+1) {
-  background-color: #f0f0f0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003110}}
-.views-calendar .calendar-calendar table.mini td.empty, .view-events-calendar .calendar-calendar table.mini td.empty, .view-ovpr-calendar .calendar-calendar table.mini td.empty {
-  border-color: #cccccc;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003112}}
-.views-calendar .calendar-calendar th.days, .view-events-calendar .calendar-calendar th.days, .view-ovpr-calendar .calendar-calendar th.days {
-  border: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003114}}
-.views-calendar .calendar-calendar td, .view-events-calendar .calendar-calendar td, .view-ovpr-calendar .calendar-calendar td {
-  border: 1px solid #cccccc;
-  padding: 7px 3px 3px;
-  text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003120}}
-.views-calendar .date-heading, .view-events-calendar .date-heading, .view-ovpr-calendar .date-heading {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #dcdcdc));
-  background-image: -webkit-linear-gradient(#fafafa, #dcdcdc);
-  background-image: -moz-linear-gradient(#fafafa, #dcdcdc);
-  background-image: -o-linear-gradient(#fafafa, #dcdcdc);
-  background-image: linear-gradient(#fafafa, #dcdcdc);
-  padding: 10px;
-  outline: 1px solid #ddd;
-  border-top: 2px solid #fff;
-  border-bottom: 1px solid #aaa;
-  text-align: left;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: .75em;
-  font-weight: bold;
-  color: #555;
-  text-shadow: 0px 1px 0 white;
-  padding: 2px;
-  margin-top: 0 !important;
-  margin-bottom: 4px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003127}}
-.views-calendar .item-list ul.pager, .view-events-calendar .item-list ul.pager, .view-ovpr-calendar .item-list ul.pager {
-  margin: 0;
-  padding: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003132}}
-.views-calendar .item-list ul.pager .date-prev a,
-.views-calendar .item-list ul.pager .date-next a, .view-events-calendar .item-list ul.pager .date-prev a,
-.view-events-calendar .item-list ul.pager .date-next a, .view-ovpr-calendar .item-list ul.pager .date-prev a,
-.view-ovpr-calendar .item-list ul.pager .date-next a {
-  text-indent: -9999px;
-  font-size: 1em;
-  line-height: 0;
-  background-image: url("images/slider-controls.png");
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
-  display: block;
-  font-size: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003141}}
-.views-calendar .item-list ul.pager .date-prev a:hover, .views-calendar .item-list ul.pager .date-prev a:focus, .views-calendar .item-list ul.pager .date-prev a:active,
-.views-calendar .item-list ul.pager .date-next a:hover,
-.views-calendar .item-list ul.pager .date-next a:focus,
-.views-calendar .item-list ul.pager .date-next a:active, .view-events-calendar .item-list ul.pager .date-prev a:hover, .view-events-calendar .item-list ul.pager .date-prev a:focus, .view-events-calendar .item-list ul.pager .date-prev a:active,
-.view-events-calendar .item-list ul.pager .date-next a:hover,
-.view-events-calendar .item-list ul.pager .date-next a:focus,
-.view-events-calendar .item-list ul.pager .date-next a:active, .view-ovpr-calendar .item-list ul.pager .date-prev a:hover, .view-ovpr-calendar .item-list ul.pager .date-prev a:focus, .view-ovpr-calendar .item-list ul.pager .date-prev a:active,
-.view-ovpr-calendar .item-list ul.pager .date-next a:hover,
-.view-ovpr-calendar .item-list ul.pager .date-next a:focus,
-.view-ovpr-calendar .item-list ul.pager .date-next a:active {
-  background-color: #7ab4e7;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2), 0px, 0px, 5px, inset;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2), 0px, 0px, 5px, inset;
-  box-shadow: rgba(0, 0, 0, 0.2), 0px, 0px, 5px, inset;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003148}}
-.views-calendar .item-list ul.pager .date-prev a, .view-events-calendar .item-list ul.pager .date-prev a, .view-ovpr-calendar .item-list ul.pager .date-prev a {
-  background-position: 0 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003149}}
-.views-calendar .item-list ul.pager .date-next a, .view-events-calendar .item-list ul.pager .date-next a, .view-ovpr-calendar .item-list ul.pager .date-next a {
-  background-position: 0 -20px;
-}
+/*
+Syntax error: Invalid CSS after "		    margin-top": expected ";", was ":-15px;"
+        on line 254 of /Applications/MAMP/htdocs/custom/sites/all/themes/ovpr_common/sass/global.views.scss
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003154}}
-.flexslider {
-  margin-bottom: 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003158}}
-.view-featured-research-panes, .view-announcements-panes {
-  position: relative;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003163}}
-.view p.top-read-more {
-  margin: 0;
-  position: absolute;
-  right: 10px;
-  top: 8px;
-  display: block;
-  width: 4em;
-}
-
-/************************* FRONT PAGE EVENT STYLES *************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003176}}
-#block-views-events-view-block h2.event-header {
-  border-bottom: 1px solid #FFC344;
-  position: relative;
-  margin-bottom: 15px;
-  font-weight: 400;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003181}}
-#block-views-events-view-block h2.event-header a {
-  text-decoration: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003184}}
-#block-views-events-view-block h2.event-header:after {
-  background: none repeat scroll 0 0 #FFC344;
-  bottom: -3px;
-  content: " ";
-  height: 6px;
-  position: absolute;
-  right: 0;
-  width: 6px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003197}}
-#block-views-events-view-block table td {
-  border-right: 1px solid #CCCCCC;
-  border-bottom: 1px solid #CCCCCC;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003202}}
-#block-views-events-view-block table .views-field-title {
-  display: block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003206}}
-#block-views-events-view-block table .views-field-field-event-date {
-  background: none repeat scroll 0 0 #FFF6DC;
-  border-radius: 6px 6px 6px 6px;
-  height: 50px;
-  padding: 1px 8px;
-  width: 50px;
-  border: 1px solid black;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003214}}
-#block-views-events-view-block table .views-field-field-event-date span#top-date-field {
-  display: block;
-  height: 20px;
-  overflow: hidden;
-  width: 34px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003221}}
-#block-views-events-view-block table .views-field-field-event-date span#bottom-date-field {
-  display: block;
-  font-size: 195%;
-  height: 41px;
-  overflow: hidden;
-  text-indent: -53px;
-  width: 36px;
-  margin-top: -27px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003232}}
-#block-views-events-view-block table .views-field-field-event-date-1 {
-  background: none repeat scroll 0 0 #FFF6DC;
-  border-bottom: medium none;
-  border-left: 1px solid #CCCCCC;
-  border-right: 1px solid #CCCCCC;
-  border-top: 1px solid #CCCCCC;
-  padding: 3px 8px;
-  width: 80px;
-  border-radius: 6px 6px 0px 0px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003243}}
-#block-views-events-view-block table .views-field-field-event-date-2 {
-  background: none repeat scroll 0 0 #FFF6DC;
-  border-top: medium none;
-  border-left: 1px solid #CCCCCC;
-  border-right: 1px solid #CCCCCC;
-  border-bottom: 1px solid #CCCCCC;
-  padding: 3px 8px;
-  width: 80px;
-  border-radius: 0px 0px 6px 6px;
-}
+Backtrace:
+/Applications/MAMP/htdocs/custom/sites/all/themes/ovpr_common/sass/global.views.scss:254
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:1130:in `expected'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:1066:in `expected'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:1061:in `tok!'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:569:in `block in declaration_or_ruleset'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:1104:in `call'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:1104:in `rethrow'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:575:in `declaration_or_ruleset'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:537:in `block_child'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:529:in `block_contents'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:518:in `block'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:512:in `ruleset'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:574:in `block in declaration_or_ruleset'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:1104:in `call'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:1104:in `rethrow'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:575:in `declaration_or_ruleset'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:537:in `block_child'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:529:in `block_contents'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:518:in `block'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:512:in `ruleset'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:574:in `block in declaration_or_ruleset'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:1104:in `call'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:1104:in `rethrow'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:575:in `declaration_or_ruleset'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:537:in `block_child'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:529:in `block_contents'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:518:in `block'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:512:in `ruleset'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:536:in `block_child'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:529:in `block_contents'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:70:in `stylesheet'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/scss/parser.rb:27:in `parse'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/engine.rb:342:in `_to_tree'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `call'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `block in modified'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `each'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `each'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block in run'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `loop'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/bin/compass:44:in `call'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/bin/compass:19:in `load'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/bin/compass:19:in `<main>'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+/Users/plower/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"		    margin-top\": expected \";\", was \":-15px;\"\A         on line 254 of /Applications/MAMP/htdocs/custom/sites/all/themes/ovpr_common/sass/global.views.scss"; }
