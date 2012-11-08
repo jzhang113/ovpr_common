@@ -184,19 +184,19 @@
 }
 
 /************************* FRONT PAGE EVENT STYLES *************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003177}}
-#block-views-events-view-block h2.event-header.pane-title, #block-views-events-view-block h2.event-header.block-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003176}}
+#block-views-events-view-block h2.event-header {
   border-bottom: 1px solid #FFC344;
   position: relative;
   margin-bottom: 15px;
   font-weight: 400;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003182}}
-#block-views-events-view-block h2.event-header.pane-title a, #block-views-events-view-block h2.event-header.block-title a {
+#block-views-events-view-block h2.event-header a {
   text-decoration: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003185}}
-#block-views-events-view-block h2.event-header.pane-title:after, #block-views-events-view-block h2.event-header.block-title:after {
+#block-views-events-view-block h2.event-header:after {
   background: none repeat scroll 0 0 #FFC344;
   bottom: -3px;
   content: " ";
