@@ -199,12 +199,15 @@
 				border-bottom: 1px solid #CCCCCC;	
 			}
 		
-
+		.views-field-title {
+			display:block;
+		}
+		
 		.views-field-field-event-date {
 			background: none repeat scroll 0 0 #FFF6DC;
     		border-radius: 6px 6px 6px 6px;
     		height: 50px;
-    		padding: 3px;
+    		padding: 1px 8px;
     		width: 50px;
     		border: 1px solid black;
 
