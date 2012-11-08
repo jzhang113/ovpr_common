@@ -240,3 +240,25 @@
   width: 36px;
   margin-top: -27px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003232}}
+#block-views-events-view-block table views-field-field-event-date-1 {
+  background: none repeat scroll 0 0 #FFF6DC;
+  border-bottom: medium none;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-top: 1px solid #CCCCCC;
+  padding: 3px 8px;
+  width: 80px;
+  border-radius: 6px 6px 6px 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003243}}
+#block-views-events-view-block table views-field-field-event-date-2 {
+  background: none repeat scroll 0 0 #FFF6DC;
+  border-top: medium none;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  padding: 3px 8px;
+  width: 80px;
+  border-radius: 6px 6px 6px 6px;
+}
