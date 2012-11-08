@@ -201,11 +201,12 @@
 		
 
 		.views-field-field-event-date {
-			background: none repeat scroll 0 0 white;
+			background: none repeat scroll 0 0 #FFF6DC;
     		border-radius: 6px 6px 6px 6px;
-    		height: 80px;
-    		padding: 1%;
-    		width: 11%;
+    		height: 50px;
+    		padding: 3px;
+    		width: 50px;
+    		border: 1px solid black;
 
 			span#top-date-field {    
 				display: block;
@@ -221,6 +222,7 @@
 			    overflow: hidden;
 			    text-indent: -53px;
 			    width: 36px;
+			    margin-top: -27px;
 	    	}
 		}
 	}
