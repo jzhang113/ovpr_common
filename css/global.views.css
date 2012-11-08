@@ -249,7 +249,7 @@
   border-top: 1px solid #CCCCCC;
   padding: 3px 8px;
   width: 80px;
-  border-radius: 6px 6px 6px 6px;
+  border-radius: 6px 6px 0px 0px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003243}}
 #block-views-events-view-block table .views-field-field-event-date-2 {
@@ -260,5 +260,5 @@
   border-bottom: 1px solid #CCCCCC;
   padding: 3px 8px;
   width: 80px;
-  border-radius: 6px 6px 6px 6px;
+  border-radius: 0px 0px 6px 6px;
 }
