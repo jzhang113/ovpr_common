@@ -185,18 +185,18 @@
 
 /************************* FRONT PAGE EVENT STYLES *************************/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003177}}
-#block-views-events-view-block h2.pane-title, #block-views-events-view-block h2.block-title {
+#block-views-events-view-block h2.event-header.pane-title, #block-views-events-view-block h2.event-header.block-title {
   border-bottom: 1px solid #FFC344;
   position: relative;
   margin-bottom: 15px;
   font-weight: 400;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003182}}
-#block-views-events-view-block h2.pane-title a, #block-views-events-view-block h2.block-title a {
+#block-views-events-view-block h2.event-header.pane-title a, #block-views-events-view-block h2.event-header.block-title a {
   text-decoration: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003185}}
-#block-views-events-view-block h2.pane-title:after, #block-views-events-view-block h2.block-title:after {
+#block-views-events-view-block h2.event-header.pane-title:after, #block-views-events-view-block h2.event-header.block-title:after {
   background: none repeat scroll 0 0 #FFC344;
   bottom: -3px;
   content: " ";
