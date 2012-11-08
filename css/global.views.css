@@ -205,8 +205,24 @@
   right: 0;
   width: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003195}}
-#block-views-events-view-block td {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003199}}
+#block-views-events-view-block .views-field-field-event-date table td {
   border-right: 1px solid #CCCCCC;
   border-bottom: 1px solid #CCCCCC;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003204}}
+#block-views-events-view-block .views-field-field-event-date table #top-date-field {
+  display: block;
+  height: 20px;
+  overflow: hidden;
+  width: 34px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003211}}
+#block-views-events-view-block .views-field-field-event-date table #bottom-date-field {
+  display: block;
+  font-size: 195%;
+  height: 41px;
+  overflow: hidden;
+  text-indent: -53px;
+  width: 36px;
 }
