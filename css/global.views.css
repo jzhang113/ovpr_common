@@ -208,4 +208,5 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003195}}
 #block-views-events-view-block td {
   border-right: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
 }
