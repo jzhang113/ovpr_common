@@ -212,9 +212,17 @@
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003202}}
 #block-views-events-view-block table .views-field-title {
-  display: block;
+  margin-left: 60px;
+  margin-top: -65px;
+  position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003208}}
+#block-views-events-view-block table .views-field-field-location {
+  margin-left: 60px;
+  margin-top: -65px;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003214}}
 #block-views-events-view-block table .views-field-field-event-date {
   background: none repeat scroll 0 0 #FFF6DC;
   border-radius: 6px 6px 6px 6px;
@@ -223,14 +231,14 @@
   width: 50px;
   border: 1px solid black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003222}}
 #block-views-events-view-block table .views-field-field-event-date span#top-date-field {
   display: block;
   height: 20px;
   overflow: hidden;
   width: 34px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003229}}
 #block-views-events-view-block table .views-field-field-event-date span#bottom-date-field {
   display: block;
   font-size: 195%;
@@ -240,26 +248,26 @@
   width: 36px;
   margin-top: -27px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003240}}
 #block-views-events-view-block table .views-field-field-event-date-1 {
   background: none repeat scroll 0 0 #FFF6DC;
   border-bottom: medium none;
   border-left: 1px solid #CCCCCC;
   border-right: 1px solid #CCCCCC;
   border-top: 1px solid #CCCCCC;
-  padding: 3px 8px;
+  padding: 3px 10px;
   width: 55px;
   border-radius: 6px 6px 0px 0px;
   font-size: 130%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003252}}
 #block-views-events-view-block table .views-field-field-event-date-2 {
   background: none repeat scroll 0 0 #FFF6DC;
   border-top: medium none;
   border-left: 1px solid #CCCCCC;
   border-right: 1px solid #CCCCCC;
   border-bottom: 1px solid #CCCCCC;
-  padding: 3px 8px;
+  padding: 3px 10px;
   width: 55px;
   border-radius: 0px 0px 6px 6px;
   font-size: 220%;

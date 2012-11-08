@@ -200,9 +200,17 @@
 			}
 		
 		.views-field-title {
-			display:block;
+			margin-left: 60px;
+		    margin-top: -65px;
+		    position: absolute;
 		}
 
+		.views-field-field-location {
+			margin-left: 60px;
+		    margin-top: -65px;
+		    position: absolute;
+		}
+		
 		.views-field-field-event-date {
 			background: none repeat scroll 0 0 #FFF6DC;
     		border-radius: 6px 6px 6px 6px;
@@ -235,7 +243,7 @@
 		    border-left: 1px solid #CCCCCC;
 		    border-right: 1px solid #CCCCCC;
 		    border-top: 1px solid #CCCCCC;
-		    padding: 3px 8px;
+		    padding: 3px 10px;
 		    width: 55px;
 		    border-radius: 6px 6px 0px 0px;
 		    font-size: 130%
@@ -247,7 +255,7 @@
 		    border-left: 1px solid #CCCCCC;
 		    border-right: 1px solid #CCCCCC;
 		    border-bottom: 1px solid #CCCCCC;
-		    padding: 3px 8px;
+		    padding: 3px 10px;
 		    width: 55px;
 		    border-radius: 0px 0px 6px 6px;
 		    font-size: 220%;
