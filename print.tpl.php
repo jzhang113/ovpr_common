@@ -19,7 +19,14 @@
     <?php print $print['favicon']; ?>
     <?php print $print['css']; ?>
   </head>
-  <body>
+  <style type="text/css" media="print">
+    .print-page
+    {
+     -webkit-transform: rotate(-90deg); -moz-transform:rotate(-90deg);
+     filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    }
+  </style>
+  <body class=".print-page">
     <?php if (!empty($print['message'])) {
       print '<div class="print-message">'. $print['message'] .'</div><p />';
     } ?>
