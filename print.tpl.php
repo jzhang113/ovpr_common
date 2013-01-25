@@ -26,7 +26,7 @@
      filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     }
   </style>
-  <body class=".print-page">
+  <body class="print-page">
     <?php if (!empty($print['message'])) {
       print '<div class="print-message">'. $print['message'] .'</div><p />';
     } ?>
