@@ -182,9 +182,3 @@
   display: block;
   width: 4em;
 }
-
-/*	RIS SITE FRONT PAGE ARTICLE STYLES 	*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003173}}
-#news-events-articles-holder {
-  margin-bottom: 4%;
-}
