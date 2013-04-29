@@ -1,0 +1,9 @@
+/*
+
+	HIDE BREADCRUMBS AND LOGO IN PRINT FOR EHS ONLY
+
+*/
+
+.print-logo, .print-breadcrumbs {
+    display: none;
+}
