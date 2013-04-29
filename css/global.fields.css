@@ -1,3 +1,10 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.fields\.scss}line{font-family:\0000312}}
+.fieldset-legend {
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.fields\.scss}line{font-family:\0000330}}
 .field .field-label {
   font-size: 1em;
   font-weight: 700;
@@ -6,13 +13,16 @@
   margin: 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.fields\.scss}line{font-family:\0000358}}
 .field-type-taxonomy-term-reference {
   margin-bottom: 1.5em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.fields\.scss}line{font-family:\0000364}}
 .field-type-taxonomy-term-reference.field-label-inline .field-items {
   margin: 0;
   padding: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.fields\.scss}line{font-family:\0000369}}
 .field-type-taxonomy-term-reference.field-label-inline .field-item {
   display: inline;
   list-style: none;
@@ -20,14 +30,17 @@
   /* LTR */
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.fields\.scss}line{font-family:\00003159}}
 .ia-l .field-type-image {
   margin: 0.5em 15px 1.5em 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.fields\.scss}line{font-family:\00003164}}
 .ia-c .field-type-image {
   margin: 0.5em auto 1.5em;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.fields\.scss}line{font-family:\00003169}}
 .ia-r .field-type-image {
   margin: 0.5em 0 1.5em 15px;
 }

@@ -4,23 +4,23 @@
  */
 /* Views Slideshow */
 /************************* CALENDAR STYLES *************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000364}}
 .views-calendar, .view-events-calendar, .view-ovpr-calendar {
   padding: 4px;
   background: #f7f7f7;
   border: 1px solid #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000376}}
 .views-calendar .date-nav-wrapper, .view-events-calendar .date-nav-wrapper, .view-ovpr-calendar .date-nav-wrapper {
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000378}}
 .views-calendar .date-nav-wrapper .date-nav, .view-events-calendar .date-nav-wrapper .date-nav, .view-ovpr-calendar .date-nav-wrapper .date-nav {
   margin-bottom: 0;
   padding: 0;
   margin-bottom: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000381}}
 .views-calendar .pager .date-prev,
 .views-calendar .pager .date-next, .view-events-calendar .pager .date-prev,
 .view-events-calendar .pager .date-next, .view-ovpr-calendar .pager .date-prev,
@@ -29,12 +29,12 @@
   border: none;
   top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000383}}
 .views-calendar .pager .date-prev, .view-events-calendar .pager .date-prev, .view-ovpr-calendar .pager .date-prev {
   right: auto;
   left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000386}}
 .views-calendar .item-list ul.pager .date-prev a,
 .views-calendar .item-list ul.pager .date-next a, .view-events-calendar .item-list ul.pager .date-prev a,
 .view-events-calendar .item-list ul.pager .date-next a, .view-ovpr-calendar .item-list ul.pager .date-prev a,
@@ -43,11 +43,11 @@
   border: none;
   outline: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000388}}
 .views-calendar .calendar-calendar div.day, .view-events-calendar .calendar-calendar div.day, .view-ovpr-calendar .calendar-calendar div.day {
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000392}}
 .views-calendar .calendar-calendar tr td.today,
 .views-calendar .calendar-calendar tr.odd td.today,
 .views-calendar .calendar-calendar tr.even td.today, .view-events-calendar .calendar-calendar tr td.today,
@@ -57,18 +57,18 @@
 .view-ovpr-calendar .calendar-calendar tr.even td.today {
   background-color: #fff3cd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\0000395}}
 .views-calendar .calendar-calendar .month-view .full tr td.single-day.today,
 .views-calendar .calendar-calendar .month-view .full td.date-box.today, .view-events-calendar .calendar-calendar .month-view .full tr td.single-day.today,
 .view-events-calendar .calendar-calendar .month-view .full td.date-box.today, .view-ovpr-calendar .calendar-calendar .month-view .full tr td.single-day.today,
 .view-ovpr-calendar .calendar-calendar .month-view .full td.date-box.today {
   border-color: #1f69a9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003102}}
 .views-calendar tbody, .view-events-calendar tbody, .view-ovpr-calendar tbody {
   border: 1px solid #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003106}}
 .views-calendar tr.odd,
 .views-calendar tr.info,
 .views-calendar tr:nth-child(2n+1), .view-events-calendar tr.odd,
@@ -78,21 +78,21 @@
 .view-ovpr-calendar tr:nth-child(2n+1) {
   background-color: #f0f0f0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003110}}
 .views-calendar .calendar-calendar table.mini td.empty, .view-events-calendar .calendar-calendar table.mini td.empty, .view-ovpr-calendar .calendar-calendar table.mini td.empty {
   border-color: #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003112}}
 .views-calendar .calendar-calendar th.days, .view-events-calendar .calendar-calendar th.days, .view-ovpr-calendar .calendar-calendar th.days {
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003114}}
 .views-calendar .calendar-calendar td, .view-events-calendar .calendar-calendar td, .view-ovpr-calendar .calendar-calendar td {
   border: 1px solid #cccccc;
   padding: 7px 3px 3px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003120}}
 .views-calendar .date-heading, .view-events-calendar .date-heading, .view-ovpr-calendar .date-heading {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #dcdcdc));
   background-image: -webkit-linear-gradient(#fafafa, #dcdcdc);
@@ -113,12 +113,12 @@
   margin-top: 0 !important;
   margin-bottom: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003127}}
 .views-calendar .item-list ul.pager, .view-events-calendar .item-list ul.pager, .view-ovpr-calendar .item-list ul.pager {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003132}}
 .views-calendar .item-list ul.pager .date-prev a,
 .views-calendar .item-list ul.pager .date-next a, .view-events-calendar .item-list ul.pager .date-prev a,
 .view-events-calendar .item-list ul.pager .date-next a, .view-ovpr-calendar .item-list ul.pager .date-prev a,
@@ -133,7 +133,7 @@
   display: block;
   font-size: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003141}}
 .views-calendar .item-list ul.pager .date-prev a:hover, .views-calendar .item-list ul.pager .date-prev a:focus, .views-calendar .item-list ul.pager .date-prev a:active,
 .views-calendar .item-list ul.pager .date-next a:hover,
 .views-calendar .item-list ul.pager .date-next a:focus,
@@ -154,26 +154,26 @@
   -moz-box-shadow: rgba(0, 0, 0, 0.2), 0px, 0px, 5px, inset;
   box-shadow: rgba(0, 0, 0, 0.2), 0px, 0px, 5px, inset;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003148}}
 .views-calendar .item-list ul.pager .date-prev a, .view-events-calendar .item-list ul.pager .date-prev a, .view-ovpr-calendar .item-list ul.pager .date-prev a {
   background-position: 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003149}}
 .views-calendar .item-list ul.pager .date-next a, .view-events-calendar .item-list ul.pager .date-next a, .view-ovpr-calendar .item-list ul.pager .date-next a {
   background-position: 0 -20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003154}}
 .flexslider {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003158}}
 .view-featured-research-panes, .view-announcements-panes {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003163}}
 .view p.top-read-more {
   margin: 0;
   position: absolute;
@@ -184,18 +184,18 @@
 }
 
 /************************* FRONT PAGE EVENT STYLES *************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003176}}
 #block-views-events-view-block h2.event-header {
   border-bottom: 1px solid #FFC344;
   position: relative;
   margin-bottom: 15px;
   font-weight: 400;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003181}}
 #block-views-events-view-block h2.event-header a {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003184}}
 #block-views-events-view-block h2.event-header:after {
   background: none repeat scroll 0 0 #FFC344;
   bottom: -3px;
@@ -205,24 +205,24 @@
   right: 0;
   width: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003197}}
 #block-views-events-view-block table td {
   border-right: 1px solid #CCCCCC;
   border-bottom: 1px solid #CCCCCC;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003202}}
 #block-views-events-view-block table .views-field-title {
   margin-left: 65px;
   margin-top: -65px;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003208}}
 #block-views-events-view-block table .views-field-field-location {
   margin-left: 65px;
   margin-top: -45px;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003214}}
 #block-views-events-view-block table .views-field-field-event-date {
   background: none repeat scroll 0 0 #FFF6DC;
   border-radius: 6px 6px 6px 6px;
@@ -231,14 +231,14 @@
   width: 50px;
   border: 1px solid black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003222}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003222}}
 #block-views-events-view-block table .views-field-field-event-date span#top-date-field {
   display: block;
   height: 20px;
   overflow: hidden;
   width: 34px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003229}}
 #block-views-events-view-block table .views-field-field-event-date span#bottom-date-field {
   display: block;
   font-size: 195%;
@@ -248,7 +248,7 @@
   width: 36px;
   margin-top: -27px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003240}}
 #block-views-events-view-block table .views-field-field-event-date-1 {
   background: none repeat scroll 0 0 #FFF6DC;
   border-bottom: medium none;
@@ -260,7 +260,7 @@
   border-radius: 6px 6px 0px 0px;
   font-size: 130%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/ovpr_common\/sass\/global\.views\.scss}line{font-family:\00003252}}
 #block-views-events-view-block table .views-field-field-event-date-2 {
   background: none repeat scroll 0 0 #FFF6DC;
   border-top: medium none;
