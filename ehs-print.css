@@ -216,3 +216,6 @@ img.print-logo {
 .print-footer {
     text-align: center;
 }
+.print-content .field-type-image figure {
+	margin:0;
+}
