@@ -3,6 +3,7 @@
  * Print Styles
  * This probably needs work, but it's a good starting point.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\0000311}}
 body {
   width: 100% !important;
   margin: 0 !important;
@@ -16,17 +17,27 @@ body {
   font-size: 11pt;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\0000326}}
+.print-page {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\0000333}}
 a {
   background: transparent;
   font-weight: 700;
   text-decoration: underline;
   color: #0000ee;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\0000341}}
 a[href^="http://"]:after, a[href^="http://"]:visited:after {
   content: "(" attr(href) ")";
   font-size: 10pt;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\0000374}}
 div[id*="wrapper"],
 [class*="title"],
 [class*="inner"],
@@ -56,6 +67,7 @@ table * {
   background: none !important;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\0000395}}
 .sidebar,
 #breadcrumb,
 .nav,
@@ -75,19 +87,23 @@ ul.links,
   display: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003101}}
 #content {
   display: block !important;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003106}}
 #header {
   margin-bottom: 20px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003111}}
 .content-inner {
   margin: 0 !important;
   padding: 0 !important;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003123}}
 h1,
 h2,
 h3,
@@ -100,24 +116,29 @@ h6 {
   line-height: 1;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003131}}
 h1 {
   font-size: 14pt;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003136}}
 h2 {
   font-size: 13pt;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003141}}
 h3 {
   font-size: 12pt;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003148}}
 h4,
 h5,
 h6 {
   font-size: 11pt;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003159}}
 h1 a,
 h2 a,
 h3 a,
@@ -130,14 +151,17 @@ h6 a,
   color: #333333;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003167}}
 hgroup a:link, hgroup a:visited {
   text-decoration: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003173}}
 #page-title {
   margin-top: 20px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003183}}
 pre,
 code,
 tt,
@@ -148,6 +172,7 @@ var {
   font-family: Consolas, "Lucida Console", Menlo, Monaco, "DejaVu Sans Mono", monospace, sans-serif;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003189}}
 blockquote {
   margin: 20px;
   padding: 10px;
@@ -156,79 +181,96 @@ blockquote {
   background: #eeeeee;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003198}}
 hr {
   background-color: #666666;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003204}}
 #header {
   padding-bottom: 20px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003209}}
 #logo img {
   padding: 0 10px 0 0;
   margin: 0 !important;
   float: none !important;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003217}}
 img {
   float: left;
   margin: 4px 20px 10px 0;
   page-break-inside: avoid;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003224}}
 a img {
   border: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003230}}
 table {
   margin: 1px;
   text-align: left;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003236}}
 th {
   border-bottom: 1px solid #333333;
   font-weight: 700;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003242}}
 td {
   border-bottom: 1px solid #333333;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003248}}
 th,
 td {
   padding: 4px 10px 4px 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003253}}
 tfoot {
   font-style: italic;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003258}}
 caption {
   margin-bottom: 10px;
   text-align: left;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003264}}
 thead {
   display: table-header-group;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003269}}
 tr {
   page-break-inside: avoid;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003275}}
 form {
   margin-bottom: 10px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003283}}
 .poll .text,
 .poll .percent,
 .poll .total {
   text-align: left;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003286}}
 .poll form {
   margin-bottom: 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003294}}
 .node,
 .comment {
   margin-bottom: 20px;
@@ -236,6 +278,7 @@ form {
   page-break-inside: avoid;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003300}}
 .submitted {
   color: #666666;
   text-decoration: none;
@@ -244,6 +287,7 @@ form {
   margin: 0;
   padding: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/custom\/sites\/all\/themes\/ovpr_common\/sass\/print\.scss}line{font-family:\00003308}}
 .submitted a {
   color: #666666;
   text-decoration: none;
