@@ -1,0 +1,218 @@
+/*
+
+	HIDE BREADCRUMBS AND LOGO IN PRINT FOR EHS ONLY
+
+*/
+
+
+.print-logo, .print-breadcrumb {
+    display: none;
+}
+
+
+.ctools-locked {
+    border: 1px solid red;
+    color: red;
+    padding: 1em;
+}
+.ctools-owns-lock {
+    background: none repeat scroll 0 0 #FFFFDD;
+    border: 1px solid #F0C020;
+    padding: 1em;
+}
+a.ctools-ajaxing, input.ctools-ajaxing, button.ctools-ajaxing, select.ctools-ajaxing {
+    background: url("/ehs/sites/all/modules/contrib/ctools/images/status-active.gif") no-repeat scroll right center transparent;
+    padding-right: 18px !important;
+}
+div.ctools-ajaxing {
+    background: url("/ehs/sites/all/modules/contrib/ctools/images/status-active.gif") no-repeat scroll center center transparent;
+    float: left;
+    width: 18px;
+}
+#lightbox {
+    background-color: #EEEEEE;
+    border-bottom: 2px solid #666666;
+    border-right: 2px solid #666666;
+    min-width: 240px;
+    padding: 10px;
+}
+#lightboxDetails {
+    font-size: 1.2em;
+    min-width: 240px;
+    padding-top: 0.6em;
+}
+#lightboxCaption {
+    float: left;
+    font: 0.9em black;
+}
+#keyboardMsg {
+    float: right;
+    font: 0.9em black;
+}
+#closeButton {
+    background: url("/ehs/sites/all/modules/contrib/lightbox2/images/close_lite.gif") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    z-index: 200;
+}
+#loadingImage {
+    background: url("/ehs/sites/all/modules/contrib/lightbox2/images/loading_lite.gif") no-repeat scroll 0 0 transparent;
+    height: 22px;
+    left: 45%;
+    line-height: 0;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 126px;
+    z-index: 150;
+}
+#lightbox img {
+    border: medium none;
+    clear: both;
+}
+#lightbox2-overlay {
+    background-color: #333333;
+    opacity: 0.6;
+}
+div.panel-pane div.admin-links {
+    font-size: xx-small;
+    margin-right: 1em;
+}
+div.panel-pane div.admin-links li a {
+    color: #CCCCCC;
+}
+div.panel-pane div.admin-links li {
+    background: none repeat scroll 0 0 white;
+    padding-bottom: 2px;
+    z-index: 201;
+}
+div.panel-pane div.admin-links:hover a, div.panel-pane div.admin-links-hover a {
+    color: #000000;
+}
+div.panel-pane div.admin-links a:before {
+    content: "[";
+}
+div.panel-pane div.admin-links a:after {
+    content: "]";
+}
+div.panel-pane div.panel-hide {
+    display: none;
+}
+div.panel-pane div.panel-hide-hover, div.panel-pane:hover div.panel-hide {
+    display: block;
+    margin-top: -1.5em;
+    position: absolute;
+    z-index: 200;
+}
+div.panel-pane div.node {
+    margin: 0;
+    padding: 0;
+}
+div.panel-pane div.feed a {
+    float: right;
+}
+#views-slideshow-form-wrapper .form-item.dependent-options {
+    padding-left: 5px;
+}
+#views-slideshow-form-wrapper .vs-dependent {
+    padding-left: 30px;
+}
+span.ext {
+    background: url("/ehs/sites/all/modules/contrib/extlink/extlink.png") no-repeat scroll right center transparent;
+    padding-right: 12px;
+}
+span.mailto {
+    background: url("/ehs/sites/all/modules/contrib/extlink/mailto.png") no-repeat scroll right center transparent;
+    padding-right: 12px;
+}
+span.ext, span.mailto {
+    display: none;
+    padding: 0;
+}
+body {
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+    margin: 1em;
+}
+th {
+    border-bottom: 1px solid #CCCCCC;
+    color: #000066;
+    text-align: left;
+}
+tr.odd {
+    background-color: #DDDDDD;
+}
+tr.even {
+    background-color: #FFFFFF;
+}
+td {
+    padding: 5px;
+}
+#menu {
+    visibility: hidden;
+}
+#main {
+    margin: 1em;
+}
+a:link {
+    color: #000000;
+}
+a:visited {
+    color: #000000;
+}
+a:hover {
+    color: #0000FF;
+}
+a:link img, a:visited img {
+    border: 0 none;
+}
+.print-footnote {
+    font-size: xx-small;
+}
+img.print-logo {
+    border: 0 none;
+}
+.print-site_name {
+}
+.print-breadcrumb {
+    font-size: x-small;
+}
+.print-title {
+}
+.print-submitted {
+    font-size: small;
+}
+.print-created {
+    font-size: small;
+}
+.print-taxonomy {
+    text-align: right;
+}
+.print-taxonomy li {
+    display: inline;
+}
+.print-content {
+}
+.print-hr {
+    background-color: #9E9E9E;
+    border: 0 none;
+    color: #9E9E9E;
+    height: 1px;
+    width: 100%;
+}
+.print-message {
+    border: medium dotted blue;
+    padding: 1em;
+}
+.print-source_url {
+    font-size: small;
+}
+.print-links {
+    font-size: small;
+}
+.print-footer {
+    text-align: center;
+}
