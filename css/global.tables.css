@@ -1,7 +1,16 @@
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: url(http://themes.googleusercontent.com/static/fonts/oswald/v7/bH7276GfdCjMjApa_dkG6fY6323mHUZFJMgTvxaG2iE.eot);
+  src: local("Oswald Bold"), local("Oswald-Bold"), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/bH7276GfdCjMjApa_dkG6fY6323mHUZFJMgTvxaG2iE.eot) format("embedded-opentype"), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/bH7276GfdCjMjApa_dkG6T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
+}
+
 /**
  * @file
  * Tables
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.tables\.scss}line{font-family:\000039}}
 table {
   border: 1px solid;
   border-spacing: 0;
@@ -14,6 +23,7 @@ table {
   border-color: #ccc;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.tables\.scss}line{font-family:\0000326}}
 thead,
 tbody,
 tr,
@@ -22,29 +32,35 @@ td {
   border-color: #ccc;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.tables\.scss}line{font-family:\0000331}}
 table {
   vertical-align: middle;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.tables\.scss}line{font-family:\0000334}}
 table.sticky-header {
   z-index: 10;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.tables\.scss}line{font-family:\0000342}}
 td,
 th {
   vertical-align: middle;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.tables\.scss}line{font-family:\0000349}}
 caption,
 th,
 td {
   text-align: left;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.tables\.scss}line{font-family:\0000354}}
 thead th {
   color: #494949;
   font-weight: 700;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.tables\.scss}line{font-family:\0000361}}
 td,
 th {
   border-bottom: 0;
@@ -52,23 +68,28 @@ th {
   padding: 5px 7px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.tables\.scss}line{font-family:\0000373}}
 tr.even {
   border-bottom: 0;
   background-color: #fff;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.tables\.scss}line{font-family:\0000380}}
 tr.info, tr.odd, tr:nth-child(2n+1) {
   border-bottom: 0;
   background-color: #f5f5f5;
   background-color: rgba(0, 0, 0, 0.1);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.tables\.scss}line{font-family:\0000390}}
 tr.odd td.active {
   background-color: #eee;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.tables\.scss}line{font-family:\0000394}}
 tr.even td.active {
   background-color: #f7f7f7;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.tables\.scss}line{font-family:\00003113}}
 #forum td .created,
 #forum td .posts,
 #forum td .topics,
