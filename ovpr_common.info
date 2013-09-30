@@ -33,8 +33,8 @@
   ; By default the sub-theme has one IE stylesheet which loads for
   ; "less than IE9" but "not IEMobile 7".
   ; Uncomment the following to use the included IE styleseet:
-
-  ; ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = css/lt-ie9.css
+  	ie_stylesheets[screen][gt IE 8][] = css/ie.css
+   ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = css/lt-ie9.css
 
 
   ; Unset Module CSS or other Stylesheets

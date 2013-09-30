@@ -1,12 +1,9 @@
 
 @import "base.scss";
 
-/* Target IE 6, 7 and 8 */
+/* Target IE 9 and 10 */
 
-// Assuming a mobile first approach with respond.js OFF, we must reset the font size for lt IE9
-html {
-  font-size: 81.3%;
-}
+
 
 @font-face {
   font-family: 'Oswald';

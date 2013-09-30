@@ -1,11 +1,21 @@
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: url(http://themes.googleusercontent.com/static/fonts/oswald/v7/bH7276GfdCjMjApa_dkG6fY6323mHUZFJMgTvxaG2iE.eot);
+  src: local("Oswald Bold"), local("Oswald-Bold"), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/bH7276GfdCjMjApa_dkG6fY6323mHUZFJMgTvxaG2iE.eot) format("embedded-opentype"), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/bH7276GfdCjMjApa_dkG6T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
+}
+
 /**
  * @file
  * Panels, AT Panels/GPanels
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.panels\.scss}line{font-family:\00003133}}
 .panel-pane {
   margin-bottom: 20px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.panels\.scss}line{font-family:\00003154}}
 .block-panels_mini {
   padding: 0;
 }

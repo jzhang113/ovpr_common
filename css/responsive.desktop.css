@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: url(http://themes.googleusercontent.com/static/fonts/oswald/v7/bH7276GfdCjMjApa_dkG6fY6323mHUZFJMgTvxaG2iE.eot);
+  src: local("Oswald Bold"), local("Oswald-Bold"), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/bH7276GfdCjMjApa_dkG6fY6323mHUZFJMgTvxaG2iE.eot) format("embedded-opentype"), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/bH7276GfdCjMjApa_dkG6T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
+}
+
 /**
  *   Important Information about this CSS File
  *
@@ -11,16 +19,19 @@
  *
  * - Read the _README file in this directory, it contains useful help and other information.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.desktop\.scss}line{font-family:\0000320}}
 #name-and-slogan {
   float: left;
   margin-bottom: 10px;
   margin-top: 30px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.desktop\.scss}line{font-family:\0000326}}
 #main-content {
   margin-left: 40px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.desktop\.scss}line{font-family:\0000330}}
 #research-depts-nav {
   background: #3B3B3C;
   padding: 5px;
@@ -28,12 +39,14 @@
   overflow: auto;
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.desktop\.scss}line{font-family:\0000336}}
 #research-depts-nav a {
   color: #FFC344;
   font-size: 0.8em;
   font-weight: bold;
   vertical-align: middle;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.desktop\.scss}line{font-family:\0000342}}
 #research-depts-nav #current-department-link {
   float: left;
   background-color: #FFC344;
@@ -47,6 +60,7 @@
   margin-top: 2px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.desktop\.scss}line{font-family:\0000353}}
 #research-link {
   float: left;
   margin-right: 10px;
@@ -54,14 +68,17 @@
   margin-top: 2px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.desktop\.scss}line{font-family:\0000362}}
 #depts-links-top {
   margin: 0;
   float: right;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.desktop\.scss}line{font-family:\0000365}}
 #depts-links-top a {
   height: 100%;
   padding: 0 4px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.desktop\.scss}line{font-family:\0000368}}
 #depts-links-top a:hover {
   color: #000;
   background-color: #FFC344;
@@ -72,21 +89,25 @@
   -o-border-radius: 5px;
   border-radius: 5px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.desktop\.scss}line{font-family:\0000375}}
 #depts-links-top li {
   display: inline;
   margin: 0 5px;
   border-left: 1px solid #FFC344;
   padding-left: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.desktop\.scss}line{font-family:\0000380}}
 #depts-links-top li.first {
   border-left: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.desktop\.scss}line{font-family:\0000387}}
 .flexslider .slides img {
   width: 440px;
   float: left;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.desktop\.scss}line{font-family:\0000392}}
 .flexslider ul.slides li img {
   padding-right: 10px;
 }
