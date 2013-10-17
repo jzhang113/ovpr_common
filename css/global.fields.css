@@ -9,7 +9,7 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.fields\.scss}line{font-family:\0000312}}
 .fieldset-legend {
   font-size: 1.6em;
-  text-decoration: underline;
+  /* text-decoration:underline; */
   font-family: 'Oswald';
   font-weight: bold;
 }
