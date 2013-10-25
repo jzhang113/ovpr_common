@@ -9,6 +9,8 @@
     
   });
 
+  $('body').addClass('js');
+
 })(jQuery);	
 
 
