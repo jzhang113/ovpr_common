@@ -20,3 +20,81 @@ html {
     font-family: 'Oswald';
     font-size: 2.5em;
 }
+
+// Wrapper for the site name and slogan (hgroup)
+
+#name-and-slogan {
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+#main-content {
+  margin-left: 40px; 
+}
+
+#research-depts-nav {
+  background: #3B3B3C;
+  padding: 5px;
+  clear: both;
+  overflow: auto;
+  width: 100%;
+    a {
+      color: #FFC344;
+      font-size: 0.8em;
+      font-weight: bold;
+      vertical-align: middle;
+    }
+  #current-department-link {
+    float: left;
+    background-color: #FFC344;
+    //height: 100%;
+    padding: 0 4px;
+    @include border-radius(5px);
+    color: #000;
+    margin-top: 2px;
+  }
+}
+
+#research-link {
+  float: left;
+  margin-right: 10px;
+  text-transform: uppercase; 
+  margin-top: 2px;
+}
+
+
+
+#depts-links-top {
+  margin: 0;
+  float: right;
+  a {
+    height: 100%;
+    padding: 0 4px;
+    &:hover {
+      color: #000;
+      background-color: #FFC344;
+      height: 100%;
+      @include border-radius(5px);
+    }
+  }
+  li {
+    display: inline;
+    margin: 0 5px;
+    border-left: 1px solid #FFC344;
+    padding-left: 10px;
+    &.first {
+      border-left: none;
+    }
+  }
+}
+
+// Featured content views
+.flexslider .slides img {
+    width: 440px;
+    float: left;
+}
+
+.flexslider ul.slides li img {
+    padding-right: 10px;
+}
