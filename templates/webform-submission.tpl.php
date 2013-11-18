@@ -18,13 +18,6 @@
 
 <?php 
 
-	if ($format == 'html') {
-	  foreach ($renderable as $i => $item) {
-	    if (is_array($item) && !empty($item['#title'])) {
-	      $renderable[$i]['#title'] .= ':';
-	    }
-	  }
-	}
 	echo 'TEST';
 	print drupal_render_children($renderable); 
 
