@@ -19,7 +19,8 @@
  * when using the "default" e-mail template.
  */
 ?>
-EMAIL SUBMISSION FROM THE UNIVERSITY OF IOWA
+
+<?php print (t('EMAIL SUBMISSION FROM THE UNIVERSITY OF IOWA')); ?>
 <?php print ($email['html'] ? '<p>' : '') . t('Submitted on [submission:date:long]'). ($email['html'] ? '</p>' : ''); ?>
 
 <?php if ($user->uid): ?>
@@ -35,3 +36,4 @@ EMAIL SUBMISSION FROM THE UNIVERSITY OF IOWA
 <?php print ($email['html'] ? '<p>' : '') . t('The results of this submission may be viewed at:') . ($email['html'] ? '</p>' : '') ?>
 
 <?php print ($email['html'] ? '<p>' : ''); ?>[submission:url]<?php print ($email['html'] ? '</p>' : ''); ?>
+<?php print (t('Template Override Works')); ?>
