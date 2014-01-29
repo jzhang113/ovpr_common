@@ -30,9 +30,11 @@
 <?php endif; ?>
 
 <?php print ($email['html'] ? '<p>' : '') . t('Submitted values are') . ':' . ($email['html'] ? '</p>' : ''); ?>
-
+<?php print '------VALUES------'; ?>
 [submission:values]
-
+<?php print '------------'; ?>
+<?php print '------RENDERED------'.drupal_render_children($renderable); ?>
+<?php print '------------'; ?>
 <?php print ($email['html'] ? '<p>' : '') . t('The results of this submission may be viewed at:') . ($email['html'] ? '</p>' : '') ?>
 
 <?php print ($email['html'] ? '<p>' : ''); ?>[submission:url]<?php print ($email['html'] ? '</p>' : ''); ?>
