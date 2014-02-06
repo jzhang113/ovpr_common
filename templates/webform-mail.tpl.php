@@ -19,7 +19,8 @@
  * when using the "default" e-mail template.
  */
 ?>
-EMAIL SUBMISSION FROM THE UNIVERSITY OF IOWA
+
+<?php //print (t('EMAIL SUBMISSION FROM THE UNIVERSITY OF IOWA<br/><br/>')); ?>
 <?php print ($email['html'] ? '<p>' : '') . t('Submitted on [submission:date:long]'). ($email['html'] ? '</p>' : ''); ?>
 
 <?php if ($user->uid): ?>
@@ -29,9 +30,12 @@ EMAIL SUBMISSION FROM THE UNIVERSITY OF IOWA
 <?php endif; ?>
 
 <?php print ($email['html'] ? '<p>' : '') . t('Submitted values are') . ':' . ($email['html'] ? '</p>' : ''); ?>
-
+<?php //print '------VALUES------'; ?>
 [submission:values]
-
+<?php //print '------------'; ?>
+<?php //print '------RENDERED------'.drupal_render_children($renderable); ?>
+<?php //print '------------'; ?>
 <?php print ($email['html'] ? '<p>' : '') . t('The results of this submission may be viewed at:') . ($email['html'] ? '</p>' : '') ?>
 
 <?php print ($email['html'] ? '<p>' : ''); ?>[submission:url]<?php print ($email['html'] ? '</p>' : ''); ?>
+<?php //print (t('<br/><br/>Template Override Works')); ?>
