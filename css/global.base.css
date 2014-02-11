@@ -24,13 +24,15 @@ html {
   line-height: 1.5;
   height: 100%;
   overflow-y: scroll;
+  font-size: 62.5%;
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003100}}
 body {
+  font-size: 1.3rem;
   margin: 0px;
   min-height: 100%;
   -webkit-font-smoothing: antialiased;
@@ -38,7 +40,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003116}}
 h1, h2, h3, h4, h5, h6,
 h1 img, h2 img, h3 img, h4 img, h5 img, h6 img,
 em, dfn, del, ins,
@@ -50,7 +52,7 @@ figure, figcaption {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003133}}
 article,
 aside,
 details,
@@ -65,31 +67,31 @@ section {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003147}}
 img,
 a img {
   border: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003152}}
 p {
   margin: 0 0 1.5em;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003159}}
 em,
 dfn {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003164}}
 ins {
   border-bottom: none;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003175}}
 pre,
 code,
 tt,
@@ -100,30 +102,30 @@ var {
   font-family: Consolas, "Lucida Console", Menlo, Monaco, "DejaVu Sans Mono", monospace, sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003182}}
 blockquote,
 q {
   font-style: italic;
   quotes: "" "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003185}}
 blockquote:before, blockquote:after,
 q:before,
 q:after {
   content: "";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003191}}
 blockquote {
   margin: 0 0 1.5em;
   padding: 0 0 0 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003195}}
 blockquote p {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003204}}
 strong,
 dfn,
 caption,
@@ -131,85 +133,85 @@ th {
   font-weight: 700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003210}}
 ul,
 ol {
   margin: 0 0 1.5em 40px;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003218}}
 .item-list ul, .item-list ol {
   margin: 0 0 0 15px;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003223}}
 .item-list ul li {
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003233}}
 ul ul, .block ul ul, .item-list ul ul, ul ol, .block ul ol, .item-list ul ol, ol ul, .block ol ul, .item-list ol ul, ol ol, .block ol ol, .item-list ol ol {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003240}}
 ul {
   list-style-type: disc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003243}}
 ul ul ul {
   list-style-type: square;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003249}}
 ol {
   list-style-type: decimal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003252}}
 ol ol {
   list-style-type: lower-alpha;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003254}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003256}}
 ol ol ol {
   list-style-type: lower-roman;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003263}}
 ul ul {
   list-style-type: circle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003266}}
 ul ul ul ul {
   list-style-type: circle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003270}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003272}}
 dt {
   font-weight: 700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003275}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003277}}
 dd {
   margin: 0 0 1.5em 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003290}}
 img {
   max-width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003300}}
 embed,
 object,
 video {
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003310}}
 .lt-ie9 img,
 .lt-ie9 object,
 .lt-ie9 embed,
@@ -217,7 +219,7 @@ video {
   max-width: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003323}}
 #map img,
 .gmap img,
 .view-gmap img,
@@ -228,12 +230,12 @@ video {
   max-width: none !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003329}}
 svg:not(:root) {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003337}}
 audio,
 canvas,
 video {
@@ -242,12 +244,12 @@ video {
   *zoom: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003345}}
 audio:not([controls]) {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003358}}
 header[role=banner],
 .content-inner,
 .nav,
@@ -260,7 +262,7 @@ header[role=banner],
   word-wrap: break-word;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003365}}
 .element-invisible {
   border: 0;
   clip: rect(1px 1px 1px 1px);
@@ -273,7 +275,7 @@ header[role=banner],
   width: 1px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003378}}
 .element-invisible.element-focusable:active,
 .element-invisible.element-focusable:focus {
   clip: auto;
@@ -284,7 +286,7 @@ header[role=banner],
   width: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003387}}
 .offscreen {
   position: absolute;
   top: -99999em;
@@ -294,23 +296,23 @@ header[role=banner],
   outline: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003396}}
 .element-hidden {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003403}}
 .distinct-header h2.pane-title, .distinct-header h2.block-title {
   border-bottom: 1px solid #FFC344;
   position: relative;
   margin-bottom: 15px;
   font-weight: 400;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003406}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003408}}
 .distinct-header h2.pane-title a, .distinct-header h2.block-title a {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003409}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003411}}
 .distinct-header h2.pane-title:after, .distinct-header h2.block-title:after {
   background: none repeat scroll 0 0 #FFC344;
   bottom: -3px;
@@ -321,22 +323,22 @@ header[role=banner],
   width: 6px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003422}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003424}}
 .minimal h3 {
   font-size: 1.2em;
   font-weight: 100;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003427}}
 .minimal h3 a {
   color: #086782;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003428}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003430}}
 .minimal h3 a:hover, .minimal h3 a:focus {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003435}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/peterlower\/Sites\/dru-multisite\/sites\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003437}}
 .sub {
   color: #3B3B3C;
   font-style: italic;
