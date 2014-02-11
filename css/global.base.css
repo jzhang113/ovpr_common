@@ -342,35 +342,33 @@ header[role=banner],
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003442}}
-[class^="ui-glyph-icon-"]:before, [class*=" ui-glyph-icon-"]:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003444}}
+#ui-wrapper [class^="ui-glyph-icon-"]:before, #ui-wrapper [class*=" ui-glyph-icon-"]:before {
   margin-left: .1em;
   margin-top: -0.15em;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003447}}
-#ui-logo a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003449}}
+#ui-wrapper #ui-logo a {
   font-size: 1.5rem;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003449}}
-#ui-search {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003451}}
+#ui-wrapper #ui-search {
   min-width: 300px;
   top: 7px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003453}}
-#ui-search .ui-glyph-icon-ui-search {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003455}}
+#ui-wrapper #ui-search .ui-glyph-icon-ui-search {
   font-size: 1rem;
   left: 5px;
   top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003459}}
-#ui-search #edit-submit-search {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003461}}
+#ui-wrapper #ui-search #edit-submit-search {
   padding: 6px 8px;
   font-size: .9rem;
   top: -2.9px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003465}}
-#ui-search input.form-text, #ui-search textarea, #ui-search select {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003467}}
+#ui-wrapper #ui-search input.form-text, #ui-wrapper #ui-search textarea, #ui-wrapper #ui-search select {
   font-size: .625em;
 }

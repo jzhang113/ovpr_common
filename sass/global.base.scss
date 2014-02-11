@@ -439,28 +439,31 @@ header[role=banner],
 
 // UI Branding Bar Styles
 
-[class^="ui-glyph-icon-"]:before, [class*=" ui-glyph-icon-"]:before {
-	margin-left: .1em;
-	margin-top: -0.15em; 
+#ui-wrapper {
+
+	[class^="ui-glyph-icon-"]:before, [class*=" ui-glyph-icon-"]:before {
+		margin-left: .1em;
+		margin-top: -0.15em; 
+	}
+	
+	#ui-logo a {font-size:1.5rem;}
+	
+	#ui-search {
+		min-width:300px; 
+		top: 7px;
+		
+		.ui-glyph-icon-ui-search {
+			font-size:1rem;
+			left: 5px;
+			top: 5px;
+		}
+		
+		#edit-submit-search {
+			padding: 6px 8px;
+			font-size:.9rem;
+			top: -2.9px;
+		}
+		
+		input.form-text, textarea, select {font-size:.625em;}
+	} 
 }
-
-#ui-logo a {font-size:1.5rem;}
-
-#ui-search {
-	min-width:300px; 
-	top: 7px;
-	
-	.ui-glyph-icon-ui-search {
-		font-size:1rem;
-		left: 5px;
-		top: 5px;
-	}
-	
-	#edit-submit-search {
-		padding: 6px 8px;
-		font-size:.9rem;
-		top: -2.9px;
-	}
-	
-	input.form-text, textarea, select {font-size:.625em;}
-} 
