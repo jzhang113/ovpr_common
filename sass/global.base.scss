@@ -451,12 +451,14 @@ header[role=banner],
 	top: 7px;
 	
 	.ui-glyph-icon-ui-search {
-		font-size:1.5rem;
+		font-size:1.55rem;
 	}
 	
 	#edit-submit-search {
 		padding: 6px 8px;
+		font-size:.9rem;
+		top: -2.9px;
 	}
 	
-	input.form-text, textarea, select {font-size:.7em;}
+	input.form-text, textarea, select {font-size:.625em;}
 } 
