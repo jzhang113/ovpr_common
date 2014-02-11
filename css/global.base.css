@@ -366,3 +366,7 @@ header[role=banner],
 #ui-search #edit-submit-search {
   padding: 6px 8px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.base\.scss}line{font-family:\00003461}}
+#ui-search input.form-text, #ui-search textarea, #ui-search select {
+  font-size: .7em;
+}
