@@ -31,4 +31,10 @@ function webform_render_children(&$element, $children_keys = NULL) {
   return $output;
 }
 
-print '------TEST-----'.webform_render_children($renderable); ?>
+  foreach ($children_keys as $key) {
+    if (!empty($element[$key])) {
+      $output2 .= drupal_render($renderable[$key]);
+    }
+  }
+
+print $output2.'------TEST-----'.webform_render_children($renderable); ?>
