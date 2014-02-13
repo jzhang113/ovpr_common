@@ -25,7 +25,9 @@ function webform_render_children(&$element, $children_keys = NULL) {
   $output = '';
   foreach ($children_keys as $key) {
     if (!empty($element[$key])) {
-      $output .= '<strong>'.drupal_render($element[$key]).'</strong>';
+      //$output .= "<strong>".drupal_render($element[$key])."</strong>";
+      $tmp = explode("==",drupal_render($element[$key]));
+      $output .= "<strong>".$tmp[0]."</strong>".$tmp[1];
     }
   }
   return $output;
