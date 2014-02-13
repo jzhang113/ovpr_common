@@ -20,7 +20,7 @@
  */
 ?>
 
-<?php #print (t('EMAIL SUBMISSION FROM THE UNIVERSITY OF IOWA<br/><br/>')); ?>
+<?php print (t('EMAIL SUBMISSION FROM THE UNIVERSITY OF IOWA<br/><br/>')); ?>
 <?php print ($email['html'] ? '<p>' : '') . t('Submitted on [submission:date:long]'). ($email['html'] ? '</p>' : ''); ?>
 
 <?php if ($user->uid): ?>
@@ -38,4 +38,4 @@
 <?php print ($email['html'] ? '<p>' : '') . t('The results of this submission may be viewed at:') . ($email['html'] ? '</p>' : '') ?>
 
 <?php print ($email['html'] ? '<p>' : ''); ?>[submission:url]<?php print ($email['html'] ? '</p>' : ''); ?>
-<?php #print (t('<br/><br/>Template Override Works')); ?>
+<?php print (t('<br/><br/>Template Override Works')); ?>
