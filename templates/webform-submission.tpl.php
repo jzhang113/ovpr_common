@@ -27,10 +27,15 @@ function webform_render_children(&$element, $children_keys = NULL) {
     if (!empty($element[$key])) {
       //$output .= "<strong>".drupal_render($element[$key])."</strong>";
       $tmp = explode("==",drupal_render($element[$key]));
-      $output .= "<strong>".$tmp[0]."</strong>".$tmp[1];
+      
+	  $output .="<strong>";
+      $output .= $tmp[0];
+      $output .="</strong>";
+      $output .="<br/>";
+      $output .=$tmp[1];
     }
   }
   return $output;
 }
 
-print $output2.'------TEST-----'.webform_render_children($renderable); ?>
+print '------TEST-----'.webform_render_children($renderable); ?>
