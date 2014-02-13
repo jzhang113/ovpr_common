@@ -25,16 +25,10 @@ function webform_render_children(&$element, $children_keys = NULL) {
   $output = '';
   foreach ($children_keys as $key) {
     if (!empty($element[$key])) {
-      $output .= drupal_render($element[$key]);
+      $output .= '<strong>'.drupal_render($element[$key]).'</strong>';
     }
   }
   return $output;
 }
-
-  foreach ($renderable as $key) {
-    if (!empty($renderable[$key])) {
-      $output2 .= drupal_render($renderable[$key]);
-    }
-  }
 
 print $output2.'------TEST-----'.webform_render_children($renderable); ?>
