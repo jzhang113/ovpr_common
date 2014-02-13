@@ -31,7 +31,7 @@ function webform_render_children(&$element, $children_keys = NULL) {
   return $output;
 }
 
-  foreach ($children_keys as $key) {
+  foreach ($renderable as $key) {
     if (!empty($element[$key])) {
       $output2 .= drupal_render($renderable[$key]);
     }
