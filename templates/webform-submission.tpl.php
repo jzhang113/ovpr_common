@@ -16,4 +16,19 @@
  */
 ?>
 
-<?php print '------TEST-----'.drupal_render_children($renderable, 1); ?>
+<?php 
+
+function webform_render_children(&$element, $children_keys = NULL) {
+  if ($children_keys === NULL) {
+    $children_keys = element_children($element);
+  }
+  $output = '';
+  foreach ($children_keys as $key) {
+    if (!empty($element[$key])) {
+      $output .= drupal_render($element[$key]);
+    }
+  }
+  return $output;
+}
+
+print '------TEST-----'.webform_render_children($renderable); ?>
