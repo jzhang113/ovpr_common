@@ -25,11 +25,10 @@ function webform_render_children(&$element, $children_keys = NULL) {
   $output = '';
   foreach ($children_keys as $key) {
     if (!empty($element[$key])) {
-      $output .= "<br/>------".$key." OUTPUT LOOP-----<br/>";
+      $output .= '<br/><br/>------'.$key.'OUTPUT LOOP-----<br/>';
       $tmp = explode( "==" , drupal_render($element[$key]));
-      $output .= 'tmp1: <span style="color:green;">'.$tmp[1].'</span>';
-      $output .= 'tmp2:'.$tmp[2];
-      $output .= "<br/>------END OUTPUT LOOP-----<br/>";
+      $output .= '<br/>tmp1: <span style="font-weight:bold;">'.$tmp[1].'</span>';
+      $output .= '<br/>tmp2:'.$tmp[2].'<br/>------END OUTPUT LOOP-----<br/><br/>';
       //$output .= drupal_render($element[$key]);
     }
   }
