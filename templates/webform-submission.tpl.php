@@ -31,11 +31,13 @@ function webform_render_children(&$element, $children_keys = NULL) {
 	  $output .="<strong>";
       $output .= $tmp[0];
       $output .="</strong>";
-      $output .="<br/>";
+      $output .="--------------";
       $output .=$tmp[1];
+      $output .="--------------";
+      $output .=$tmp[2];
     }
   }
   return $output;
 }
 
-print '------TEST-----'.webform_render_children($renderable); ?>
+print '<br/>------TEST-----<br/>'.webform_render_children($renderable).'<br/>------END TEST-----<br/>'; ?>
