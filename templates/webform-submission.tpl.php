@@ -26,11 +26,11 @@ function webform_render_children(&$element, $children_keys = NULL) {
   foreach ($children_keys as $key) {
     if (!empty($element[$key])) {
       //$output .= "<strong>".drupal_render($element[$key])."</strong>";
-      $tmp = explode("==",drupal_render($element[$key]));
+      $tmp = explode( "==" , drupal_render($element[$key]));
       
-	  $output .= t("<strong>");
+	    $output .= "< strong >";
       $output .= $tmp[0];
-      $output .= t("</strong>");
+      $output .= "</strong>";
       $output .= "--------------";
       $output .= $tmp[1];
       $output .= "--------------";
