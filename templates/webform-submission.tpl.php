@@ -26,8 +26,8 @@ function webform_render_children(&$element, $children_keys = NULL) {
   foreach ($children_keys as $key) {
     if (!empty($element[$key])) {
       $tmp = explode( "==" , drupal_render($element[$key]));
-      $formquestion .= "<span style='font-weight:bold;'>".$tmp[0]."</span>";
-      $formanswer .= "--------------".$tmp[1]."--------------";
+      $formquestion = "<span style='font-weight:bold;'>".$tmp[0]."</span>";
+      $formanswer = "--------------".$tmp[1]."--------------";
       $output .= $formquestion.$formanswer;
     }
   }
