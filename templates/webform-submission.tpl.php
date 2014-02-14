@@ -30,6 +30,8 @@ function webform_render_children(&$element, $children_keys = NULL) {
       $tmp = explode( "==" , drupal_render($element[$key]));
       $output .= '<br/><br/>element and key:'.var_dump($element[$key]);
       $output .= '<br/><br/>key:'.$key;
+      $output .= '<br/>TITLE:'.$element["#title"];
+      $output .= '<br/>DESCRIPTION:'.$element["incident_description"]["#translatable"];
       $output .= '<br/>tmp0:'.$tmp[0];
       $output .= '<br/>tmp1:'.$tmp[1];
       $output .= '<br/>tmp2:'.$tmp[2];
