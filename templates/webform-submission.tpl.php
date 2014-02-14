@@ -40,8 +40,8 @@ function webform_render_children(&$element, $children_keys = NULL) {
   return $output;
 }
 
-#print '<br/>------TEST-----<br/>'.webform_render_children($renderable).'<br/>------END TEST-----<br/>'; 
+print '<br/>------TEST-----<br/>'.webform_render_children($renderable).'<br/>------END TEST-----<br/>'; 
 
-print var_dump($renderable);
+//print var_dump($renderable);
 
-print drupal_render_children($renderable); ?>
+//print drupal_render_children($renderable); ?>
