@@ -25,20 +25,23 @@ function webform_render_children(&$element, $children_keys = NULL) {
   $output = '';
   foreach ($children_keys as $key) {
     if (!empty($element[$key])) {
-      //$output .= "<strong>".drupal_render($element[$key])."</strong>";
       $tmp = explode( "==" , drupal_render($element[$key]));
       
-	    $output .= "< strong >";
+	    $output .= "<span style='font-weight:bold;'>";
       $output .= $tmp[0];
-      $output .= "</strong>";
+      $output .= "</span>";
       $output .= "--------------";
       $output .= $tmp[1];
       $output .= "--------------";
       $output .= $tmp[2];
     }
   }
+  print var_dump($output);
   return $output;
 }
 
-print '<br/>------TEST-----<br/>'.webform_render_children($renderable).'<br/>------END TEST-----<br/>'; 
+#print '<br/>------TEST-----<br/>'.webform_render_children($renderable).'<br/>------END TEST-----<br/>'; 
+
+print var_dump($renderable);
+
 print drupal_render_children($renderable); ?>
