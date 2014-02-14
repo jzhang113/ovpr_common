@@ -28,10 +28,13 @@ function webform_render_children(&$element, $children_keys = NULL) {
       #print "<br/>======<br/>".var_dump($element[$key])."<br/>======<br/>";
       $output .= "<br/>------BEGIN OUTPUT LOOP-----<br/>";
       $tmp = explode( "==" , drupal_render($element[$key]));
-      $output .= '<br/><br/>element and key:'.$element[$key];
+      $output .= '<br/><br/>element and key:'.var_dump($element[$key]);
       $output .= '<br/><br/>key:'.$key;
-      $output .= '<br/>tmp1:'.$tmp[0];
+      $output .= '<br/>tmp0:'.$tmp[0];
       $output .= '<br/>tmp1:'.$tmp[1];
+      $output .= '<br/>tmp2:'.$tmp[2];
+      $output .= '<br/>tmp3:'.$tmp[3];
+      $output .= '<br/>tmp4:'.$tmp[4];
       $output .= "<br/>------END OUTPUT LOOP-----<br/>";
       //$output .= drupal_render($element[$key]);
     }
