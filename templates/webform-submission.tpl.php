@@ -26,7 +26,7 @@ function webform_render_children(&$element, $children_keys = NULL) {
   foreach ($children_keys as $key) {
     if (!empty($element[$key])) {
       #print "<br/>======<br/>".var_dump($element[$key])."<br/>======<br/>";
-      $tmp = explode( "==" , $element[$key]);
+      $tmp = explode( "==" , drupal_render($element[$key]));
       $output .= $tmp[0];
       $output .= $tmp[1];
       $output .= "<br/>------OUTPUT SPLIT-----<br/>";
