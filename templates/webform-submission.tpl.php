@@ -28,16 +28,17 @@ function webform_render_children(&$element, $children_keys = NULL) {
       //$output .= "<strong>".drupal_render($element[$key])."</strong>";
       $tmp = explode("==",drupal_render($element[$key]));
       
-	  $output .="<strong>";
+	  $output .= t("<strong>");
       $output .= $tmp[0];
-      $output .="</strong>";
-      $output .="--------------";
-      $output .=$tmp[1];
-      $output .="--------------";
-      $output .=$tmp[2];
+      $output .= t("</strong>");
+      $output .= "--------------";
+      $output .= $tmp[1];
+      $output .= "--------------";
+      $output .= $tmp[2];
     }
   }
   return $output;
 }
 
-print '<br/>------TEST-----<br/>'.webform_render_children($renderable).'<br/>------END TEST-----<br/>'; ?>
+print '<br/>------TEST-----<br/>'.webform_render_children($renderable).'<br/>------END TEST-----<br/>'; 
+print drupal_render_children($renderable); ?>
