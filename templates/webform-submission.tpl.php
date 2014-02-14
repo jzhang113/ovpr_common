@@ -25,13 +25,28 @@ function webform_render_children(&$element, $children_keys = NULL) {
   $output = '';
   foreach ($children_keys as $key) {
     if (!empty($element[$key])) {
-      print "<br/>======<br/>".var_dump($element[$key])."<br/>======<br/>";
-      $tmp = explode( "==" , drupal_render($element[$key]));
-      $output .= "<span style='font-weight:bold;'>".$tmp[0]."</span>";
+      //print "<br/>======<br/>".var_dump($element[$key])."<br/>======<br/>";
+      $tmp = explode( "==" , $element[$key]);
+      $output .= $tmp[0];
       $output .= $tmp[1];
+      $output .= "<br/>-----------<br/>";
+      $output .= drupal_render($element[$key]);
     }
   }
   //print "<br/>======<br/>".var_dump($output)."<br/>======<br/>";
+  return $output;
+}
+
+function drupal_render_children(&$element, $children_keys = NULL) {
+  if ($children_keys === NULL) {
+    $children_keys = element_children($element);
+  }
+  $output = '';
+  foreach ($children_keys as $key) {
+    if (!empty($element[$key])) {
+      $output .= drupal_render($element[$key]);
+    }
+  }
   return $output;
 }
 
