@@ -26,17 +26,12 @@ function webform_render_children(&$element, $children_keys = NULL) {
   foreach ($children_keys as $key) {
     if (!empty($element[$key])) {
       $tmp = explode( "==" , drupal_render($element[$key]));
-      
-	    $output .= "<span style='font-weight:bold;'>";
-      $output .= $tmp[0];
-      $output .= "</span>";
-      $output .= "--------------";
-      $output .= $tmp[1];
-      $output .= "--------------";
-      $output .= $tmp[2];
+      $formquestion .= "<span style='font-weight:bold;'>".$tmp[0]."</span>";
+      $formanswer .= "--------------".$tmp[1]."--------------";
+      $output .= $formquestion.$formanswer;
     }
   }
-  print var_dump($output);
+  print "<br/>======<br/>".var_dump($output)."<br/>======<br/>";
   return $output;
 }
 
