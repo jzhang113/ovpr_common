@@ -25,23 +25,17 @@ function webform_render_children(&$element, $children_keys = NULL) {
   $output = '';
   foreach ($children_keys as $key) {
     if (!empty($element[$key])) {
-      #print "<br/>======<br/>".var_dump($element[$key])."<br/>======<br/>";
-      $output .= "<br/>------BEGIN OUTPUT LOOP-----<br/>";
+      $output .= "<br/>------".$key." OUTPUT LOOP-----<br/>";
       $tmp = explode( "==" , drupal_render($element[$key]));
-      //$output .= '<br/><br/>element and key:'.var_dump($element[$key]);
-      $output .= '<br/><br/>key:'.$key;
-      $output .= '<br/>tmp1: <span style="color:green;">'.$tmp[1].'</span>';
-      $output .= '<br/>tmp2:'.$tmp[2];
+      $output .= 'tmp1: <span style="color:green;">'.$tmp[1].'</span>';
+      $output .= 'tmp2:'.$tmp[2];
       $output .= "<br/>------END OUTPUT LOOP-----<br/>";
       //$output .= drupal_render($element[$key]);
     }
   }
-  #print "<br/>======<br/>".var_dump($output)."<br/>======<br/>";
   return $output;
 }
 
 print '<br/>------TEST-----<br/>'.webform_render_children($renderable).'<br/>------END TEST-----<br/>'; 
-
-//print var_dump($renderable);
 
 //print drupal_render_children($renderable); ?>
