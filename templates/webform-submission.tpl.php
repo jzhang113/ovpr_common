@@ -26,11 +26,14 @@ function webform_render_children(&$element, $children_keys = NULL) {
   foreach ($children_keys as $key) {
     if (!empty($element[$key])) {
       #print "<br/>======<br/>".var_dump($element[$key])."<br/>======<br/>";
+      $output .= "<br/>------BEGIN OUTPUT LOOP-----<br/>";
       $tmp = explode( "==" , drupal_render($element[$key]));
-      $output .= $tmp[0];
-      $output .= $tmp[1];
-      $output .= "<br/>------OUTPUT SPLIT-----<br/>";
-      $output .= drupal_render($element[$key]);
+      $output .= '<br/><br/>element and key:'.$element[$key];
+      $output .= '<br/><br/>key:'.$key;
+      $output .= '<br/>tmp1:'.$tmp[0];
+      $output .= '<br/>tmp1:'.$tmp[1];
+      $output .= "<br/>------END OUTPUT LOOP-----<br/>";
+      //$output .= drupal_render($element[$key]);
     }
   }
   #print "<br/>======<br/>".var_dump($output)."<br/>======<br/>";
