@@ -38,6 +38,8 @@
 // print '<strong>'.webform_render_children($renderable).'</strong>'; 
 
 $renderable['cid']["#theme"]['#weight']='bold';
+$renderable['node']["#webform"]["#emails"]['#html']=1;
 echo '---cidthemeweight----'.$renderable['cid']["#theme"]['#weight'].'--------';
-var_dump($renderable['cid']);
+echo '---cidthemeweight----'.$renderable['node']["#webform"]["#emails"]['#html'].'--------';
+var_dump($renderable['node']);
 print drupal_render_children($renderable); ?>
