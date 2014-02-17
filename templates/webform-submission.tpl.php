@@ -37,6 +37,6 @@
 
 // print '<strong>'.webform_render_children($renderable).'</strong>'; 
 //var_dump($renderable);
-$renderable['cid']["#theme"]['#weight']=='bold';
+$renderable['cid']["#theme"]['#weight']='bold';
 echo '---cidthemeweight----'.$renderable['cid']["#theme"]['#weight'].'--------';
 print drupal_render_children($renderable); ?>
