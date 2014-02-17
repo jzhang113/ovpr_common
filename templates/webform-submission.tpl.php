@@ -36,5 +36,5 @@
 // }
 
 // print '<strong>'.webform_render_children($renderable).'</strong>'; 
-
+var_dump($renderable);
 print drupal_render_children($renderable); ?>
