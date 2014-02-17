@@ -38,7 +38,7 @@
 // print '<strong>'.webform_render_children($renderable).'</strong>'; 
 
 $renderable['cid']["#theme"]['#weight']='bold';
-$renderable['node']["#webform"]["#emails"]['#html']=1;
+$renderable['node']["#webform"]["#emails"]['#html']='1';
 echo '---cidthemeweight----'.$renderable['cid']["#theme"]['#weight'].'--------';
 echo '---cidthemeweight----'.$renderable['node']["#webform"]["#emails"]['#html'].'--------';
 var_dump($renderable['node']);
