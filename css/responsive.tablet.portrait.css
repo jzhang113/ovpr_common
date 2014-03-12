@@ -19,25 +19,21 @@
  *
  * - Read the _README file in this directory, it contains useful help and other information.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.portrait\.scss}line{font-family:\0000318}}
 #name-and-slogan {
   float: left;
   margin-bottom: 10px;
   margin-top: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.portrait\.scss}line{font-family:\0000324}}
 #research-depts-wrapper {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.portrait\.scss}line{font-family:\0000329}}
 .flexslider .slides img {
   width: 400px;
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.portrait\.scss}line{font-family:\0000334}}
 .flexslider ul.slides li img {
   padding-right: 10px;
 }

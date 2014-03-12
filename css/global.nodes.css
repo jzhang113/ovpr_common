@@ -10,18 +10,15 @@
  * @file
  * Node Styling
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.nodes\.scss}line{font-family:\000039}}
 .node {
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.nodes\.scss}line{font-family:\00003104}}
 .node-iowa-now-article .publication_source {
   color: #3B3B3C;
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.nodes\.scss}line{font-family:\00003109}}
 .field-name-field-iowanow-thumbnail-image {
   float: left;
   margin: 0.5em 0.5em 0.5em 0;
