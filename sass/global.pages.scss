@@ -492,6 +492,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .flexslider {
+  margin-bottom: 15px;
   background: #EBEBEB; /* Old browsers */
   @include background(linear-gradient(top, #EBEBEB, #D1D1D1));
   h2 {
@@ -512,13 +513,19 @@ h2, h3, h4, h5, h6 {
     padding-left: 10px;
     padding-right: 10px;
   }
+  .block-content & ul {
+    margin: 0;
+  }
+  .flex-direction-nav a {
+    height: 60px;
+  }
 }
 
 div.flex-pauseplay {
   position: absolute;
   bottom: 10px;
-  right: 10px;
-  .flex-play {
-    cursor: pointer;
+  right: 40px;
+  a {
+    height: 28px;
   }
 }

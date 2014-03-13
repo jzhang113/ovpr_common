@@ -224,6 +224,7 @@ h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 .flexslider {
+  margin-bottom: 15px;
   background: #EBEBEB;
   /* Old browsers */
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ebebeb), color-stop(100%, #d1d1d1));
@@ -250,12 +251,18 @@ h2 a, h3 a, h4 a, h5 a, h6 a {
   padding-left: 10px;
   padding-right: 10px;
 }
+.block-content .flexslider ul {
+  margin: 0;
+}
+.flexslider .flex-direction-nav a {
+  height: 60px;
+}
 
 div.flex-pauseplay {
   position: absolute;
   bottom: 10px;
-  right: 10px;
+  right: 40px;
 }
-div.flex-pauseplay .flex-play {
-  cursor: pointer;
+div.flex-pauseplay a {
+  height: 28px;
 }
