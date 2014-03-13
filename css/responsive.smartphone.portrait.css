@@ -19,18 +19,15 @@
  *
  * - Read the _README file in this directory, it contains useful help and other information.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.smartphone\.portrait\.scss}line{font-family:\0000318}}
 html {
   font-size: 112.5%;
   /* Increase the default font size on small devices */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.smartphone\.portrait\.scss}line{font-family:\0000322}}
 #research-depts-wrapper {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.smartphone\.portrait\.scss}line{font-family:\0000326}}
 .front #breadcrumb-wrapper .container {
   display: none;
 }

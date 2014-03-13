@@ -1,3 +1,14 @@
+@import url(global.base.css);
+@import url(global.tables.css);
+@import url(global.forms.css);
+@import url(global.pages.css);
+@import url(global.nav.css);
+@import url(global.fields.css);
+@import url(global.nodes.css);
+@import url(global.comments.css);
+@import url(global.blocks.css);
+@import url(global.views.css);
+@import url(global.panels.css);
 /**
  * Global Styles
  *
@@ -21,24 +32,13 @@
  * and the actual styles, and adds base styles for tables and Panels.
  */
 /* Reset + additional styles to support modern web browsers */
-@import url(global.base.css);
 /* Global table styles, these can apply heavily to the admin area or front end */
-@import url(global.tables.css);
 /* Global form styles */
-@import url(global.forms.css);
 /* General styles for page template elements */
-@import url(global.pages.css);
 /* Main navigation, menus, breadcrumbs, local tasks, action links, pager and skip navigation */
-@import url(global.nav.css);
 /* Global styles for fields */
-@import url(global.fields.css);
 /* Content types */
-@import url(global.nodes.css);
 /* Comment wrapper, commentss and the comment form */
-@import url(global.comments.css);
 /* Block styles, includes all core blocks */
-@import url(global.blocks.css);
 /* Starter CSS for styling Views */
-@import url(global.views.css);
 /* Starter CSS for styling Panels and panel panes */
-@import url(global.panels.css);

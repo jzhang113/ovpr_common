@@ -19,14 +19,12 @@
  *
  * - Read the _README file in this directory, it contains useful help and other information.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000318}}
 #name-and-slogan {
   float: left;
   margin-bottom: 10px;
   margin-top: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000324}}
 #research-depts-nav {
   background: #3B3B3C;
   padding: 5px;
@@ -34,14 +32,12 @@
   overflow: auto;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000330}}
 #research-depts-nav a {
   color: #FFC344;
   font-size: 0.8em;
   font-weight: bold;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000336}}
 #research-depts-nav #current-department-link {
   float: left;
   background-color: #FFC344;
@@ -55,7 +51,6 @@
   margin-top: 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000347}}
 #research-link {
   float: left;
   margin-right: 10px;
@@ -63,17 +58,14 @@
   margin-top: 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000354}}
 #depts-links-top {
   margin: 0;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000357}}
 #depts-links-top a {
   height: 100%;
   padding: 0 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000360}}
 #depts-links-top a:hover {
   color: #000;
   background-color: #FFC344;
@@ -84,30 +76,25 @@
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000367}}
 #depts-links-top li {
   display: inline;
   margin: 0 5px;
   border-left: 1px solid #FFC344;
   padding-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000372}}
 #depts-links-top li.first {
   border-left: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000378}}
 #main-content {
   margin-left: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000384}}
 .flexslider .slides img {
   width: 410px;
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000390}}
 .flexslider ul.slides li img {
   padding-right: 10px;
 }
