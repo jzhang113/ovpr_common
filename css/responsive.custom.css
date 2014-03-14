@@ -21,7 +21,6 @@
  * look under the "CSS" settings tab.
  */
 @media only screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/responsive\.custom\.scss}line{font-family:\0000342}}
   .region[class*="float-blocks"] .block {
     float: none;
     width: 100%;

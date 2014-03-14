@@ -6,38 +6,31 @@
   src: local("Oswald Bold"), local("Oswald-Bold"), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/bH7276GfdCjMjApa_dkG6fY6323mHUZFJMgTvxaG2iE.eot) format("embedded-opentype"), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/bH7276GfdCjMjApa_dkG6T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.blocks\.scss}line{font-family:\0000311}}
 .block {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.blocks\.scss}line{font-family:\0000313}}
 .region-header .block {
   margin-top: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.blocks\.scss}line{font-family:\0000351}}
 .block-content ul,
 .block-content ol {
   margin: 0 0 0 15px;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.blocks\.scss}line{font-family:\0000355}}
 .block-content li {
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.blocks\.scss}line{font-family:\00003132}}
 #block-system-main-menu a {
   color: #000 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.blocks\.scss}line{font-family:\00003135}}
 #block-system-main-menu li {
   border-bottom: 1px solid #FFC344;
   padding: 10px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.blocks\.scss}line{font-family:\00003139}}
 #block-system-main-menu li:after {
   content: ' ';
   background: #FFC344;
@@ -47,16 +40,13 @@
   bottom: -3px;
   right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.blocks\.scss}line{font-family:\00003148}}
 #block-system-main-menu li li {
   border-bottom: none;
   padding: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.blocks\.scss}line{font-family:\00003151}}
 #block-system-main-menu li li:after {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/plower\/Sites\/dru-multisite\/sites\/all\/themes\/ovpr_common\/sass\/global\.blocks\.scss}line{font-family:\00003156}}
 #block-system-main-menu .block-inner {
   margin-left: 0;
   margin-right: 20px;
