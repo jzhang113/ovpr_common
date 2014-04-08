@@ -27,18 +27,18 @@
 
 // Smartphone sizes and down
 @media only screen and (max-width: 480px) {
-
-  //
+  
+  // 
   // Float Region blocks example:
   // In smaller screen sizes we can remove the float and widths so all blocks
   // stack instead of displaying horizonally. The selector used here is an
   // "attribute selector" which will match on any float block class. Use your
   // inspector or Firebug to get the classes from the page output if you need
   // more granular control over block alignment and stacking.
-  //
+  //  
   // "Float Region blocks" is an extension for floating blocks in regions, see
   // your themes appearance settings, under the Extensions tab.
-  //
+  // 
   .region[class*="float-blocks"] .block {
     float: none;
     width: 100%;
@@ -47,39 +47,7 @@
 
 
 // Tablet sizes and up
-@media only screen and (min-width: 768px) {
-  /********************* GRANT BULLETIN OPPORTUNITY STYLES *********************/
-  .page-opportunities .feed-icon {
-    clear: both;
-    float: left;
-  }
-
-  .opportunity-view {
-    .views-field {
-      float: left;
-    }
-
-    .first {
-      clear: left;
-      width: 30%;
-    }
-
-    .second {
-      width: 50%;
-    }
-
-    .views-field-title {
-      margin-bottom: 0.4em;
-      margin-top: 1.2em;
-      width: 100%;
-    }
-
-    .email-link {
-      float: right;
-      width: 20%;
-    }
-  }
-}
+// @media only screen and (min-width: 768px) {}
 
 
 // Desktops/laptops and up
