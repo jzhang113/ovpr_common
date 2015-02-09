@@ -27,18 +27,18 @@
 
 // Smartphone sizes and down
 @media only screen and (max-width: 480px) {
-  
-  // 
+
+  //
   // Float Region blocks example:
   // In smaller screen sizes we can remove the float and widths so all blocks
   // stack instead of displaying horizonally. The selector used here is an
   // "attribute selector" which will match on any float block class. Use your
   // inspector or Firebug to get the classes from the page output if you need
   // more granular control over block alignment and stacking.
-  //  
+  //
   // "Float Region blocks" is an extension for floating blocks in regions, see
   // your themes appearance settings, under the Extensions tab.
-  // 
+  //
   .region[class*="float-blocks"] .block {
     float: none;
     width: 100%;
@@ -52,3 +52,11 @@
 
 // Desktops/laptops and up
 // @media only screen and (min-width: 1025px) {}
+
+// Grant Bulletin stylesheets
+.node-type-grant-bulletin-opportunity {
+
+  .field-name-body {
+    padding-top: 1.5em;
+  }
+}

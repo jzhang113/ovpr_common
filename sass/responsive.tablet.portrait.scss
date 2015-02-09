@@ -14,7 +14,7 @@
  *
  * - Read the _README file in this directory, it contains useful help and other information.
  */
- 
+
  #name-and-slogan {
   float: left;
   margin-bottom: 10px;
@@ -26,11 +26,13 @@
 }
 
 // Featured content views
-.flexslider .slides img {
+.view-id-featured_content {
+  .flexslider .slides img {
     width: 400px;
     float: left;
-}
+  }
 
-.flexslider ul.slides li img {
-    padding-right: 10px;
+  .flexslider ul.slides li img {
+      padding-right: 10px;
+  }
 }

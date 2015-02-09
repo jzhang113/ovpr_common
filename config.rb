@@ -14,10 +14,6 @@
 # with debug code, be sure to change to :production when moving from development
 # to production servers.
 
-environment = :development
-#environment = :production
-
-
 # Location of the theme's resources.
 # Compass will overwrite the CSS files in the css_dir when set to watch.
 
@@ -32,8 +28,7 @@ images_dir = "css/images"
 
 # You can select your preferred output style here (can be overridden via the
 # command line)
-#output_style = :expanded or :nested or :compact or :compressed
-output_style = (environment == :development) ? :expanded : :compact
+output_style = :expanded
 
 
 # To enable relative paths to assets via compass helper functions. Since Drupal
