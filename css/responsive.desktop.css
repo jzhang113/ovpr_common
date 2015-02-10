@@ -90,11 +90,10 @@
   border-left: none;
 }
 
-.flexslider .slides img {
-  width: 440px;
+.view-id-featured_content .flexslider .slides img {
+  width: 400px;
   float: left;
 }
-
-.flexslider ul.slides li img {
+.view-id-featured_content .flexslider ul.slides li img {
   padding-right: 10px;
 }

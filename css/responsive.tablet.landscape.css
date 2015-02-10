@@ -9,10 +9,10 @@
 /**
  *   Important Information about this CSS File
  *
- * - Do not delete or rename this file, if you do not use it leave it blank (delete 
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
  *   everything) and the file will be skipped when you enable Production Mode in
  *   the Global theme settings.
- *   
+ *
  * - There is an scss (SASS) version of this file in the /sass/ directory in your
  *   sub-theme, if you set Compass to watch it or the directory this file will be
  *   overwritten!
@@ -90,11 +90,10 @@
   margin-left: 20px;
 }
 
-.flexslider .slides img {
-  width: 410px;
+.view-id-featured_content .flexslider .slides img {
+  width: 400px;
   float: left;
 }
-
-.flexslider ul.slides li img {
+.view-id-featured_content .flexslider ul.slides li img {
   padding-right: 10px;
 }
