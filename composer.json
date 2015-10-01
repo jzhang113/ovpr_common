@@ -1,0 +1,8 @@
+{
+    "name": "its-uofiowa/ovpr_common",
+    "description": "OVPR shared theme.",
+    "type": "drupal-theme",
+    "require": {
+      "composer/installers": "*"
+    }
+}
