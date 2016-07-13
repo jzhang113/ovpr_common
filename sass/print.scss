@@ -36,7 +36,7 @@ a {
   text-decoration: underline;
   color: rgb(0, 0, 238);
 
-  &[href^="http://"] {
+  &[href^="https://"] {
     &:after,
     &:visited:after {
       content: "("attr(href)")";
