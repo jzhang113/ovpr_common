@@ -27,17 +27,17 @@
 function ovpr_common_preprocess_page(&$vars) {
     $departmentname = theme_get_setting('ovpr_depts_name');
     $sitepath = $GLOBALS['base_url'];
-    $vars['ovpr_branding'] = '<a id="research-link" href="http://www.uiowa.edu/">University of Iowa</a>'
+    $vars['ovpr_branding'] = '<a id="research-link" href="https://www.uiowa.edu/">University of Iowa</a>'
     . l($departmentname, $sitepath, array('attributes' => array('id' => array('current-department-link'))));
     if(theme_get_setting('ovpr_depts_links') === 1) {
     $vars['ovpr_branding'] .=
   	'<ul id="depts-links-top">
-      <li class="first"><a title="Conflict Of Interest" href="http://coi.research.uiowa.edu">COI</a></li>
-      <li><a title="Division of Sponsored Programs" href="http://dsp.research.uiowa.edu">DSP</a></li>
-      <li><a title="Environmental Health & Safety" href="http://ehs.research.uiowa.edu">EHS</a></li>
-      <li><a title="Human Subjects Office / IRB" href="http://hso.research.uiowa.edu">HSO/IRB</a></li>
-      <li><a title="Office of Animal Resources / Institutional Animal Care and USe Committee" href="http://animal.research.uiowa.edu">OAR/IACUC</a></li>
-      <li><a title="Research Information Systems" href="http://ris.research.uiowa.edu">RIS</a></li>
+      <li class="first"><a title="Conflict Of Interest" href="https://coi.research.uiowa.edu">COI</a></li>
+      <li><a title="Division of Sponsored Programs" href="https://dsp.research.uiowa.edu">DSP</a></li>
+      <li><a title="Environmental Health & Safety" href="https://ehs.research.uiowa.edu">EHS</a></li>
+      <li><a title="Human Subjects Office / IRB" href="https://hso.research.uiowa.edu">HSO/IRB</a></li>
+      <li><a title="Office of Animal Resources / Institutional Animal Care and USe Committee" href="https://animal.research.uiowa.edu">OAR/IACUC</a></li>
+      <li><a title="Research Information Systems" href="https://ris.research.uiowa.edu">RIS</a></li>
   		<li><a title="Office of the Vice President for Research" href="https://research.uiowa.edu">VPR</a></li>
   		<li class="last"><a title="See More Units..." href="https://research.uiowa.edu/ovpr-research-units-facilities-and-centers-directory">MORE UNITS</a></li>
   	</ul>';
